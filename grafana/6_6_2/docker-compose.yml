@@ -1,0 +1,21 @@
+version: '3.7'
+
+volumes:
+    data: {}
+    grafana_data: {}
+
+services:
+
+    grafana:
+        image: grafana/grafana:6.6.2
+        container_name: grafana
+        volumes:
+            - grafana_data:/var/lib/grafana 
+            - ./grafana/dashboards:/etc/grafana/provisioning/dashboards 
+        environment: 
+            - GF_SECURITY_ADMIN_USER=clecio
+            - GF_SECURITY_ADMIN_PASSWORD=lab2022 
+            - GF_USERS_ALLOW_SIGN_UP=false 
+        restart: unless-stopped
+        ports: 
+            - "3000:3000"

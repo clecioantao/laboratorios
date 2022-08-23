@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+  mysqlsrv:
+    image: ubuntu/mysql:8.0-20.04_edge
+    container_name: mysql1
+    environment:
+      MYSQL_ROOT_PASSWORD: "teste"
+      MYSQL_DATABASE: "teste"
+    ports:
+      - "3306:3306"
+    volumes:
+      - /opt/laboratorios/database/mysql/testes:/var/lib/mysql
+    networks:
+      - mysql-compose-network
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    ports:
+      - 8090:8080
+    networks:
+      - mysql-compose-network
+
+  mysqld-exporter:
+    image: prom/mysqld-exporter
+    container_name: mysqld-exporter
+    environment:
+      DATA_SOURCE_NAME: "exporter:exporter@(192.168.2.100:3306)/"  
+    ports:
+      - 9104:9104
+    networks:
+      - mysql-compose-network
+
+networks: 
+  mysql-compose-network:
+    #driver: bridgedocker 

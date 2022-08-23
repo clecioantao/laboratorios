@@ -1,0 +1,265 @@
+[2022-08-19 22:00:05,627] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: carga_deskmanager.popula_DeskManagerAF scheduled__2022-08-18T22:00:00+00:00 [queued]>
+[2022-08-19 22:00:05,755] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: carga_deskmanager.popula_DeskManagerAF scheduled__2022-08-18T22:00:00+00:00 [queued]>
+[2022-08-19 22:00:05,755] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-19 22:00:05,755] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-08-19 22:00:05,755] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-19 22:00:05,858] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): popula_DeskManagerAF> on 2022-08-18 22:00:00+00:00
+[2022-08-19 22:00:05,925] {standard_task_runner.py:52} INFO - Started process 95592 to run task
+[2022-08-19 22:00:05,928] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'carga_deskmanager', 'popula_DeskManagerAF', 'scheduled__2022-08-18T22:00:00+00:00', '--job-id', '736', '--raw', '--subdir', 'DAGS_FOLDER/etl_deskmanager.py', '--cfg-path', '/tmp/tmpqjgv7g0d', '--error-file', '/tmp/tmp8f3bp8ag']
+[2022-08-19 22:00:05,929] {standard_task_runner.py:80} INFO - Job 736: Subtask popula_DeskManagerAF
+[2022-08-19 22:00:06,700] {task_command.py:371} INFO - Running <TaskInstance: carga_deskmanager.popula_DeskManagerAF scheduled__2022-08-18T22:00:00+00:00 [running]> on host 1e1070d9e5ae
+[2022-08-19 22:00:07,936] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=clecio.antao@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=carga_deskmanager
+AIRFLOW_CTX_TASK_ID=popula_DeskManagerAF
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-18T22:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-18T22:00:00+00:00
+[2022-08-19 22:00:08,058] {logging_mixin.py:115} INFO - sucesso
+[2022-08-19 22:00:09,249] {logging_mixin.py:115} INFO - Token:  dGVjYmFu#beddbd668d040aaec72c4eccef704258b5854e8b
+[2022-08-19 22:00:09,250] {logging_mixin.py:115} INFO - Relatorio:  868
+[2022-08-19 22:00:09,250] {logging_mixin.py:115} INFO - Tabela:  DeskManagerAF
+[2022-08-19 22:00:22,643] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:00:22,643] {logging_mixin.py:115} INFO - Contador:  1
+[2022-08-19 22:00:22,643] {logging_mixin.py:115} INFO - Linhas:  0
+[2022-08-19 22:00:29,165] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:01:30,922] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:01:30,922] {logging_mixin.py:115} INFO - Contador:  2
+[2022-08-19 22:01:30,922] {logging_mixin.py:115} INFO - Linhas:  5000
+[2022-08-19 22:01:37,792] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:02:25,037] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:02:25,038] {logging_mixin.py:115} INFO - Contador:  3
+[2022-08-19 22:02:25,038] {logging_mixin.py:115} INFO - Linhas:  10000
+[2022-08-19 22:02:31,722] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:03:10,829] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:03:10,829] {logging_mixin.py:115} INFO - Contador:  4
+[2022-08-19 22:03:10,829] {logging_mixin.py:115} INFO - Linhas:  15000
+[2022-08-19 22:03:17,591] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:04:15,118] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:04:15,119] {logging_mixin.py:115} INFO - Contador:  5
+[2022-08-19 22:04:15,119] {logging_mixin.py:115} INFO - Linhas:  20000
+[2022-08-19 22:04:22,157] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:05:12,224] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:05:12,224] {logging_mixin.py:115} INFO - Contador:  6
+[2022-08-19 22:05:12,224] {logging_mixin.py:115} INFO - Linhas:  25000
+[2022-08-19 22:05:19,882] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:06:05,788] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:06:05,788] {logging_mixin.py:115} INFO - Contador:  7
+[2022-08-19 22:06:05,789] {logging_mixin.py:115} INFO - Linhas:  30000
+[2022-08-19 22:06:12,806] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:06:52,336] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:06:52,336] {logging_mixin.py:115} INFO - Contador:  8
+[2022-08-19 22:06:52,336] {logging_mixin.py:115} INFO - Linhas:  35000
+[2022-08-19 22:06:59,837] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:07:32,671] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:07:32,671] {logging_mixin.py:115} INFO - Contador:  9
+[2022-08-19 22:07:32,671] {logging_mixin.py:115} INFO - Linhas:  40000
+[2022-08-19 22:07:40,846] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:08:14,236] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:08:14,236] {logging_mixin.py:115} INFO - Contador:  10
+[2022-08-19 22:08:14,236] {logging_mixin.py:115} INFO - Linhas:  45000
+[2022-08-19 22:08:22,913] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:08:58,009] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:08:58,009] {logging_mixin.py:115} INFO - Contador:  11
+[2022-08-19 22:08:58,009] {logging_mixin.py:115} INFO - Linhas:  50000
+[2022-08-19 22:09:05,390] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:09:39,683] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:09:39,683] {logging_mixin.py:115} INFO - Contador:  12
+[2022-08-19 22:09:39,684] {logging_mixin.py:115} INFO - Linhas:  55000
+[2022-08-19 22:09:49,088] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:10:32,625] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:10:32,626] {logging_mixin.py:115} INFO - Contador:  13
+[2022-08-19 22:10:32,626] {logging_mixin.py:115} INFO - Linhas:  60000
+[2022-08-19 22:10:41,277] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:11:18,055] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:11:18,055] {logging_mixin.py:115} INFO - Contador:  14
+[2022-08-19 22:11:18,055] {logging_mixin.py:115} INFO - Linhas:  65000
+[2022-08-19 22:11:27,365] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:12:01,874] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:12:01,886] {logging_mixin.py:115} INFO - Contador:  15
+[2022-08-19 22:12:01,886] {logging_mixin.py:115} INFO - Linhas:  70000
+[2022-08-19 22:12:12,118] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:12:42,477] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:12:42,477] {logging_mixin.py:115} INFO - Contador:  16
+[2022-08-19 22:12:42,477] {logging_mixin.py:115} INFO - Linhas:  75000
+[2022-08-19 22:12:51,610] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:13:24,082] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:13:24,082] {logging_mixin.py:115} INFO - Contador:  17
+[2022-08-19 22:13:24,082] {logging_mixin.py:115} INFO - Linhas:  80000
+[2022-08-19 22:13:32,548] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:14:12,696] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:14:12,696] {logging_mixin.py:115} INFO - Contador:  18
+[2022-08-19 22:14:12,696] {logging_mixin.py:115} INFO - Linhas:  85000
+[2022-08-19 22:14:22,687] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:14:55,563] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:14:55,563] {logging_mixin.py:115} INFO - Contador:  19
+[2022-08-19 22:14:55,563] {logging_mixin.py:115} INFO - Linhas:  90000
+[2022-08-19 22:15:04,733] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:15:44,097] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:15:44,109] {logging_mixin.py:115} INFO - Contador:  20
+[2022-08-19 22:15:44,109] {logging_mixin.py:115} INFO - Linhas:  95000
+[2022-08-19 22:15:54,772] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:16:33,986] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:16:33,987] {logging_mixin.py:115} INFO - Contador:  21
+[2022-08-19 22:16:33,987] {logging_mixin.py:115} INFO - Linhas:  100000
+[2022-08-19 22:16:42,571] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:17:20,082] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:17:20,082] {logging_mixin.py:115} INFO - Contador:  22
+[2022-08-19 22:17:20,082] {logging_mixin.py:115} INFO - Linhas:  105000
+[2022-08-19 22:17:29,222] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:18:09,053] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:18:09,053] {logging_mixin.py:115} INFO - Contador:  23
+[2022-08-19 22:18:09,053] {logging_mixin.py:115} INFO - Linhas:  110000
+[2022-08-19 22:18:18,992] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:18:52,140] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:18:52,140] {logging_mixin.py:115} INFO - Contador:  24
+[2022-08-19 22:18:52,140] {logging_mixin.py:115} INFO - Linhas:  115000
+[2022-08-19 22:19:03,903] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:19:36,998] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:19:36,999] {logging_mixin.py:115} INFO - Contador:  25
+[2022-08-19 22:19:36,999] {logging_mixin.py:115} INFO - Linhas:  120000
+[2022-08-19 22:19:46,838] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:20:38,971] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:20:39,005] {logging_mixin.py:115} INFO - Contador:  26
+[2022-08-19 22:20:39,005] {logging_mixin.py:115} INFO - Linhas:  125000
+[2022-08-19 22:20:50,384] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:21:29,836] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:21:29,836] {logging_mixin.py:115} INFO - Contador:  27
+[2022-08-19 22:21:29,836] {logging_mixin.py:115} INFO - Linhas:  130000
+[2022-08-19 22:21:39,524] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:22:13,520] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:22:13,520] {logging_mixin.py:115} INFO - Contador:  28
+[2022-08-19 22:22:13,520] {logging_mixin.py:115} INFO - Linhas:  135000
+[2022-08-19 22:22:23,115] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:22:58,134] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:22:58,135] {logging_mixin.py:115} INFO - Contador:  29
+[2022-08-19 22:22:58,135] {logging_mixin.py:115} INFO - Linhas:  140000
+[2022-08-19 22:23:08,667] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:23:45,202] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:23:45,202] {logging_mixin.py:115} INFO - Contador:  30
+[2022-08-19 22:23:45,203] {logging_mixin.py:115} INFO - Linhas:  145000
+[2022-08-19 22:23:55,179] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:24:31,727] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:24:31,727] {logging_mixin.py:115} INFO - Contador:  31
+[2022-08-19 22:24:31,727] {logging_mixin.py:115} INFO - Linhas:  150000
+[2022-08-19 22:24:42,715] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:25:31,119] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:25:31,119] {logging_mixin.py:115} INFO - Contador:  32
+[2022-08-19 22:25:31,119] {logging_mixin.py:115} INFO - Linhas:  155000
+[2022-08-19 22:25:43,095] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:26:21,043] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:26:21,043] {logging_mixin.py:115} INFO - Contador:  33
+[2022-08-19 22:26:21,043] {logging_mixin.py:115} INFO - Linhas:  160000
+[2022-08-19 22:26:32,339] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:27:10,048] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:27:10,048] {logging_mixin.py:115} INFO - Contador:  34
+[2022-08-19 22:27:10,048] {logging_mixin.py:115} INFO - Linhas:  165000
+[2022-08-19 22:27:21,538] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:27:56,751] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:27:56,751] {logging_mixin.py:115} INFO - Contador:  35
+[2022-08-19 22:27:56,751] {logging_mixin.py:115} INFO - Linhas:  170000
+[2022-08-19 22:28:08,570] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:28:41,337] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:28:41,337] {logging_mixin.py:115} INFO - Contador:  36
+[2022-08-19 22:28:41,337] {logging_mixin.py:115} INFO - Linhas:  175000
+[2022-08-19 22:28:54,112] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:29:43,548] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:29:43,548] {logging_mixin.py:115} INFO - Contador:  37
+[2022-08-19 22:29:43,549] {logging_mixin.py:115} INFO - Linhas:  180000
+[2022-08-19 22:29:55,452] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:30:43,854] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:30:43,854] {logging_mixin.py:115} INFO - Contador:  38
+[2022-08-19 22:30:43,854] {logging_mixin.py:115} INFO - Linhas:  185000
+[2022-08-19 22:30:57,454] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:31:30,646] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:31:30,647] {logging_mixin.py:115} INFO - Contador:  39
+[2022-08-19 22:31:30,647] {logging_mixin.py:115} INFO - Linhas:  190000
+[2022-08-19 22:31:43,793] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:32:30,347] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:32:30,348] {logging_mixin.py:115} INFO - Contador:  40
+[2022-08-19 22:32:30,348] {logging_mixin.py:115} INFO - Linhas:  195000
+[2022-08-19 22:32:44,715] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:33:18,940] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:33:18,940] {logging_mixin.py:115} INFO - Contador:  41
+[2022-08-19 22:33:18,940] {logging_mixin.py:115} INFO - Linhas:  200000
+[2022-08-19 22:33:33,284] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:34:09,572] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:34:09,573] {logging_mixin.py:115} INFO - Contador:  42
+[2022-08-19 22:34:09,573] {logging_mixin.py:115} INFO - Linhas:  205000
+[2022-08-19 22:34:21,827] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:34:54,793] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:34:54,793] {logging_mixin.py:115} INFO - Contador:  43
+[2022-08-19 22:34:54,793] {logging_mixin.py:115} INFO - Linhas:  210000
+[2022-08-19 22:35:07,458] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:35:45,628] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:35:45,629] {logging_mixin.py:115} INFO - Contador:  44
+[2022-08-19 22:35:45,629] {logging_mixin.py:115} INFO - Linhas:  215000
+[2022-08-19 22:35:59,481] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:36:30,163] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:36:30,164] {logging_mixin.py:115} INFO - Contador:  45
+[2022-08-19 22:36:30,164] {logging_mixin.py:115} INFO - Linhas:  220000
+[2022-08-19 22:36:43,685] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:37:21,311] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:37:21,311] {logging_mixin.py:115} INFO - Contador:  46
+[2022-08-19 22:37:21,311] {logging_mixin.py:115} INFO - Linhas:  225000
+[2022-08-19 22:37:34,225] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:38:07,755] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:38:07,755] {logging_mixin.py:115} INFO - Contador:  47
+[2022-08-19 22:38:07,755] {logging_mixin.py:115} INFO - Linhas:  230000
+[2022-08-19 22:38:21,350] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:38:52,404] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:38:52,404] {logging_mixin.py:115} INFO - Contador:  48
+[2022-08-19 22:38:52,405] {logging_mixin.py:115} INFO - Linhas:  235000
+[2022-08-19 22:39:06,651] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:39:32,879] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:39:32,879] {logging_mixin.py:115} INFO - Contador:  49
+[2022-08-19 22:39:32,880] {logging_mixin.py:115} INFO - Linhas:  240000
+[2022-08-19 22:39:47,029] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:40:27,976] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:40:27,976] {logging_mixin.py:115} INFO - Contador:  50
+[2022-08-19 22:40:27,976] {logging_mixin.py:115} INFO - Linhas:  245000
+[2022-08-19 22:40:42,775] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:41:24,999] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:41:24,999] {logging_mixin.py:115} INFO - Contador:  51
+[2022-08-19 22:41:24,999] {logging_mixin.py:115} INFO - Linhas:  250000
+[2022-08-19 22:41:38,442] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:42:17,111] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:42:17,111] {logging_mixin.py:115} INFO - Contador:  52
+[2022-08-19 22:42:17,112] {logging_mixin.py:115} INFO - Linhas:  255000
+[2022-08-19 22:42:30,312] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:43:04,891] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:43:04,891] {logging_mixin.py:115} INFO - Contador:  53
+[2022-08-19 22:43:04,891] {logging_mixin.py:115} INFO - Linhas:  260000
+[2022-08-19 22:43:18,869] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:43:46,081] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:43:46,082] {logging_mixin.py:115} INFO - Contador:  54
+[2022-08-19 22:43:46,082] {logging_mixin.py:115} INFO - Linhas:  265000
+[2022-08-19 22:44:00,281] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:44:33,531] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:44:33,531] {logging_mixin.py:115} INFO - Contador:  55
+[2022-08-19 22:44:33,531] {logging_mixin.py:115} INFO - Linhas:  270000
+[2022-08-19 22:44:49,398] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:45:40,474] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:45:40,474] {logging_mixin.py:115} INFO - Contador:  56
+[2022-08-19 22:45:40,474] {logging_mixin.py:115} INFO - Linhas:  275000
+[2022-08-19 22:45:56,818] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:46:38,635] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:46:38,636] {logging_mixin.py:115} INFO - Contador:  57
+[2022-08-19 22:46:38,636] {logging_mixin.py:115} INFO - Linhas:  280000
+[2022-08-19 22:46:52,955] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:47:31,049] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:47:31,049] {logging_mixin.py:115} INFO - Contador:  58
+[2022-08-19 22:47:31,049] {logging_mixin.py:115} INFO - Linhas:  285000
+[2022-08-19 22:47:43,796] {logging_mixin.py:115} INFO - 30 30
+[2022-08-19 22:47:44,607] {logging_mixin.py:115} INFO - Paginas:  5000
+[2022-08-19 22:47:44,607] {logging_mixin.py:115} INFO - Contador:  59
+[2022-08-19 22:47:44,607] {logging_mixin.py:115} INFO - Linhas:  290000
+[2022-08-19 22:47:57,109] {logging_mixin.py:115} INFO - 30 6
+[2022-08-19 22:47:57,109] {logging_mixin.py:115} INFO - quebrou:  len(df.columns)  6
+[2022-08-19 22:47:57,109] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-19 22:47:57,137] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=carga_deskmanager, task_id=popula_DeskManagerAF, execution_date=20220818T220000, start_date=20220819T220005, end_date=20220819T224757
+[2022-08-19 22:47:57,251] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-19 22:47:57,387] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

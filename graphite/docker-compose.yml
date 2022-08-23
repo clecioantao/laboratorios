@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  statsd:
+    image: graphiteapp/graphite-statsd
+    container_name: graphite
+    ports:
+      - "8084:80"
+      - "2003-2004:2003-2004"
+      - "2023-2024:2023-2024"
+      - "8125:8125/udp"
+      - "8126:8126"
+    volumes:
+      - ./conf:/opt/graphite/conf
+      - ./data:/opt/graphite/data
+      - .storage:/opt/graphite/storage
+      - ./statsd/config:/opt/statsd/config

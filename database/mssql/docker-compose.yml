@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  sqlserver1:
+      image: mcr.microsoft.com/mssql/server:2022-latest # microsoft/mssql-server-linux
+      container_name: mssql_bd
+      ports:  
+        - "1433:1433"
+      environment:
+        - ACCEPT_EULA=Y
+        - SA_PASSWORD=Proteu690201
+      volumes: 
+        - sqlsystem:/var/opt/mssql/
+        - sqldata:/var/opt/sqlserver/data
+        - sqllog:/var/opt/sqlserver/log
+        - sqlbackup:/var/opt/sqlserver/backup
+      restart: always
+
+volumes:
+  data:
+  sqlsystem:
+  sqldata:
+  sqllog:
+  sqlbackup:    
+  esdata01:
+    driver: local      

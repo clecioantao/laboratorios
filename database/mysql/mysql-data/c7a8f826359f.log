@@ -1,0 +1,17 @@
+/usr/sbin/mysqld, Version: 8.0.30-0ubuntu0.20.04.2 ((Ubuntu)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2022-08-15T10:51:14.586376Z	    0 Execute	CREATE TABLE performance_schema.innodb_redo_log_files(
+`FILE_ID` BIGINT NOT NULL COMMENT 'Id of the file.',
+`FILE_NAME` VARCHAR(2000) NOT NULL COMMENT 'Path to the file.',
+`START_LSN` BIGINT NOT NULL COMMENT 'LSN of the first block in the file.',
+`END_LSN` BIGINT NOT NULL COMMENT 'LSN after the last block in the file.',
+`SIZE_IN_BYTES` BIGINT NOT NULL COMMENT 'Size of the file (in bytes).',
+`IS_FULL` TINYINT NOT NULL COMMENT '1 iff file has no free space inside.',
+`CONSUMER_LEVEL` INT NOT NULL COMMENT 'All redo log consumers registered on smaller levels than this value, have already consumed this file.'
+)engine = 'performance_schema'
+2022-08-15T10:51:19.980717Z	   10 Connect	root@localhost on  using Socket
+2022-08-15T10:51:19.980762Z	   10 Connect	Access denied for user 'root'@'localhost' (using password: NO)
+2022-08-15T10:51:34.101854Z	   11 Connect	root@localhost on  using Socket
+2022-08-15T10:51:34.108339Z	   11 Query	select @@version_comment limit 1
+2022-08-15T10:56:22.936429Z	   11 Quit	

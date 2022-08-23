@@ -1,0 +1,28 @@
+[2022-08-22 09:10:10,326] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: elastic_desk.popula_elastic_aguardando scheduled__2022-08-22T09:05:00+00:00 [queued]>
+[2022-08-22 09:10:10,364] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: elastic_desk.popula_elastic_aguardando scheduled__2022-08-22T09:05:00+00:00 [queued]>
+[2022-08-22 09:10:10,364] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-22 09:10:10,364] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-08-22 09:10:10,364] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-22 09:10:10,383] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): popula_elastic_aguardando> on 2022-08-22 09:05:00+00:00
+[2022-08-22 09:10:10,389] {standard_task_runner.py:52} INFO - Started process 64626 to run task
+[2022-08-22 09:10:10,397] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'elastic_desk', 'popula_elastic_aguardando', 'scheduled__2022-08-22T09:05:00+00:00', '--job-id', '1665', '--raw', '--subdir', 'DAGS_FOLDER/etl_elastic_desk.py', '--cfg-path', '/tmp/tmpst7eu1ry', '--error-file', '/tmp/tmp5a_gr71h']
+[2022-08-22 09:10:10,399] {standard_task_runner.py:80} INFO - Job 1665: Subtask popula_elastic_aguardando
+[2022-08-22 09:10:10,570] {task_command.py:371} INFO - Running <TaskInstance: elastic_desk.popula_elastic_aguardando scheduled__2022-08-22T09:05:00+00:00 [running]> on host 1e1070d9e5ae
+[2022-08-22 09:10:10,674] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=clecio.antao@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=elastic_desk
+AIRFLOW_CTX_TASK_ID=popula_elastic_aguardando
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-22T09:05:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-22T09:05:00+00:00
+[2022-08-22 09:10:10,680] {base.py:271} INFO - GET http://192.168.2.100:9200/ [status:200 request:0.003s]
+[2022-08-22 09:10:13,442] {base.py:271} INFO - HEAD http://192.168.2.100:9200/_template/desk_aguardando [status:200 request:0.009s]
+[2022-08-22 09:10:13,607] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/es_pandas/es_pandas.py:58 RuntimeWarning: invalid value encountered in double_scalars
+[2022-08-22 09:10:13,694] {base.py:271} INFO - POST http://192.168.2.100:9200/_bulk [status:200 request:0.049s]
+[2022-08-22 09:10:13,710] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-22 09:10:13,725] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=elastic_desk, task_id=popula_elastic_aguardando, execution_date=20220822T090500, start_date=20220822T091010, end_date=20220822T091013
+[2022-08-22 09:10:13,795] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-22 09:10:13,848] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

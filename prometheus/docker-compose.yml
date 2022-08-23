@@ -1,0 +1,100 @@
+version: '3.7'
+
+volumes:
+    data: {}
+    #grafana_data: {}
+
+services:
+
+    prometheus:
+        image: prom/prometheus:v2.15.2
+        container_name: prometheus
+        volumes:
+            - ./prometheus-data:/prometheus-data
+            - data:/prometheus 
+        command:
+            - '--config.file=/prometheus-data/prometheus.yml'
+            - '--storage.tsdb.path=/prometheus'
+            - '--web.console.templates=/etc/prometheus/consoles'
+            - '--web.console.libraries=/etc/prometheus/console_libraries'
+            - '--web.enable-lifecycle'
+            - '--storage.tsdb.retention.time=7d'
+        ports:
+            - "9090:9090"
+        restart: unless-stopped
+   
+    nodeexporter:
+        image: prom/node-exporter
+        container_name: nodeexporter 
+        volumes:
+            - /proc:/host/proc:ro
+            - /sys:/host/sys:ro 
+            - /:/rootfs:ro 
+            - /tmp:/tmp:ro 
+        command:
+            - '--collector.textfile.directory=/tmp'
+            - '--path.procfs=/host/proc'
+            - '--path.sysfs=/host/sys'
+            - --collector.filesystem.ignored-mount-points
+            - "^/(sys|proc|dev|host|etc|rootfs/var/lib/docker/containers|rootfs/var/lib/docker/overlay2|rootfs/run/docker/netns|rootfs/var/lib/docker/aufs)($$|/)"
+        ports:
+            - "9100:9100"
+        restart: unless-stopped
+
+    cadvisor:
+        image: gcr.io/google-containers/cadvisor:v0.34.0
+        container_name: cadvisor
+        volumes:
+            - /:/rootfs:ro
+            - /var/run:/var/run:rw
+            - /sys:/sys:ro
+            - /var/lib/docker:/var/lib/docker:ro 
+            - /cgroup:/cgroup:ro
+        restart: unless-stopped
+        ports:
+            - "8080:8080"
+
+    blackbox:
+        image: prom/blackbox-exporter
+        container_name: blackbox 
+        volumes:
+            - ./config:/config
+        command:
+            - "--config.file=/config/blackbox.yml"
+            - "--history.limit=50"
+        restart: unless-stopped
+        ports:
+            - "9115:9115"
+
+    pushgateway:
+        image: prom/pushgateway:v1.1.0
+        container_name: pushgateway
+        restart: unless-stopped
+        ports: 
+            - "9091:9091"
+
+    alertmanager:
+        image: prom/alertmanager
+        container_name: alertmanager
+        volumes:
+            - ./alertmanager:/etc/alertmanager
+        command:
+            - '--config.file=/etc/alertmanager/alertmanager.yml'
+            - '--storage.path=/alertmanager'
+        restart: unless-stopped
+        ports: 
+            - "9093:9093"
+
+    # grafana:
+    #     image: grafana/grafana:6.6.2
+    #     container_name: grafana
+    #     volumes:
+    #         - grafana_data:/var/lib/grafana 
+    #         - ./grafana/dashboards:/etc/grafana/provisioning/dashboards 
+    #     environment: 
+    #         - GF_SECURITY_ADMIN_USER=promadmin
+    #         - GF_SECURITY_ADMIN_PASSWORD=prometheus 
+    #         - GF_USERS_ALLOW_SIGN_UP=false 
+    #     restart: unless-stopped
+    #     ports: 
+    #         - "3000:3000"

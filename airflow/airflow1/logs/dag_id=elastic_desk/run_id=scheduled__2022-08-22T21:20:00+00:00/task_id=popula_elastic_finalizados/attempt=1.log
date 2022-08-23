@@ -1,0 +1,49 @@
+[2022-08-22 21:25:01,538] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: elastic_desk.popula_elastic_finalizados scheduled__2022-08-22T21:20:00+00:00 [queued]>
+[2022-08-22 21:25:01,562] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: elastic_desk.popula_elastic_finalizados scheduled__2022-08-22T21:20:00+00:00 [queued]>
+[2022-08-22 21:25:01,562] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-22 21:25:01,562] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2022-08-22 21:25:01,562] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-22 21:25:01,621] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): popula_elastic_finalizados> on 2022-08-22 21:20:00+00:00
+[2022-08-22 21:25:01,640] {standard_task_runner.py:52} INFO - Started process 101913 to run task
+[2022-08-22 21:25:01,669] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'elastic_desk', 'popula_elastic_finalizados', 'scheduled__2022-08-22T21:20:00+00:00', '--job-id', '1958', '--raw', '--subdir', 'DAGS_FOLDER/etl_elastic_desk.py', '--cfg-path', '/tmp/tmpikpec18c', '--error-file', '/tmp/tmps0vxd4r2']
+[2022-08-22 21:25:01,670] {standard_task_runner.py:80} INFO - Job 1958: Subtask popula_elastic_finalizados
+[2022-08-22 21:25:02,500] {task_command.py:371} INFO - Running <TaskInstance: elastic_desk.popula_elastic_finalizados scheduled__2022-08-22T21:20:00+00:00 [running]> on host 1e1070d9e5ae
+[2022-08-22 21:25:03,122] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=clecio.antao@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=elastic_desk
+AIRFLOW_CTX_TASK_ID=popula_elastic_finalizados
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-22T21:20:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-22T21:20:00+00:00
+[2022-08-22 21:25:03,152] {base.py:271} INFO - GET http://192.168.2.100:9200/ [status:200 request:0.028s]
+[2022-08-22 21:25:07,239] {base.py:271} INFO - HEAD http://192.168.2.100:9200/_template/desk_finalizados [status:200 request:0.026s]
+[2022-08-22 21:25:08,050] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/es_pandas/es_pandas.py:58 RuntimeWarning: invalid value encountered in double_scalars
+[2022-08-22 21:25:09,250] {base.py:271} INFO - POST http://192.168.2.100:9200/_bulk [status:200 request:0.261s]
+[2022-08-22 21:25:09,695] {base.py:271} INFO - POST http://192.168.2.100:9200/_bulk [status:200 request:0.289s]
+[2022-08-22 21:25:10,059] {base.py:271} INFO - POST http://192.168.2.100:9200/_bulk [status:200 request:0.369s]
+[2022-08-22 21:25:10,298] {base.py:271} INFO - POST http://192.168.2.100:9200/_bulk [status:200 request:0.238s]
+[2022-08-22 21:25:10,415] {base.py:271} INFO - POST http://192.168.2.100:9200/_bulk [status:200 request:0.128s]
+[2022-08-22 21:25:10,620] {base.py:271} INFO - POST http://192.168.2.100:9200/_bulk [status:200 request:0.126s]
+[2022-08-22 21:25:10,873] {base.py:271} INFO - POST http://192.168.2.100:9200/_bulk [status:200 request:0.254s]
+[2022-08-22 21:25:10,947] {base.py:271} INFO - POST http://192.168.2.100:9200/_bulk [status:200 request:0.207s]
+[2022-08-22 21:25:11,027] {base.py:271} INFO - POST http://192.168.2.100:9200/_bulk [status:200 request:0.128s]
+[2022-08-22 21:25:11,054] {base.py:271} INFO - POST http://192.168.2.100:9200/_bulk [status:200 request:0.147s]
+[2022-08-22 21:25:11,086] {logging_mixin.py:115} INFO - 0       22-08-2022
+1       22-08-2022
+2       22-08-2022
+3       22-08-2022
+4       22-08-2022
+           ...    
+4506    23-07-2022
+4507    23-07-2022
+4508    23-07-2022
+4509    23-07-2022
+4510    23-07-2022
+Name: DataFinalizacao, Length: 4511, dtype: object
+[2022-08-22 21:25:11,093] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-22 21:25:11,139] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=elastic_desk, task_id=popula_elastic_finalizados, execution_date=20220822T212000, start_date=20220822T212501, end_date=20220822T212511
+[2022-08-22 21:25:12,058] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-22 21:25:12,214] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
