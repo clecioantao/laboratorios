@@ -1,0 +1,2 @@
+docker exec -it -u root jenkins_jenkins_1 bash
+

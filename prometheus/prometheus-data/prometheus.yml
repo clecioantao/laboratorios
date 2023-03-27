@@ -9,42 +9,42 @@ scrape_configs:
   scheme: http
   static_configs:
   - targets:
-    - 192.168.2.100:9090
+    - 192.168.0.100:9090
 
 - job_name: aula
   static_configs:
   - targets:
-    - 192.168.2.14:3030
+    - 192.168.0.14:3030
 
 - job_name: windows
   static_configs:
   - targets:
-    - 192.168.2.6:9182
+    - 192.168.0.6:9182
 
 - job_name: teste-http-python
   static_configs:
   - targets:
-    - 192.168.2.100:5001
+    - 192.168.0.100:5001
 
 - job_name: teste-flask_my-app
   static_configs:
   - targets:
-    - 192.168.2.100:5005
+    - 192.168.0.100:5005
 
 - job_name: node-exporter
   static_configs:
   - targets:
-    - 192.168.2.100:9100
+    - 192.168.0.100:9100
 
 - job_name: cadvisor
   static_configs:
   - targets:
-    - 192.168.2.100:8080
+    - 192.168.0.100:8080
 
 - job_name: blackbox
   static_configs:
   - targets:
-    - 192.168.2.100:9115
+    - 192.168.0.100:9115
 
 - job_name: blackbox-dns
   metrics_path: /probe
@@ -62,7 +62,7 @@ scrape_configs:
     - tcp_connect
   static_configs:
   - targets:
-    - "192.168.2.100:5005"
+    - "192.168.0.100:5005"
 
 - job_name: natura-status
   metrics_path: /probe
@@ -78,25 +78,25 @@ scrape_configs:
     - source_labels: [__param_target]
       target_label: instance
     - target_label: __address__
-      replacement: 192.168.2.100:9115  
+      replacement: 192.168.0.100:9115  
 
 - job_name: mysql-exporter
   static_configs:
   - targets:
-    - 192.168.2.100:9104     
+    - 192.168.0.100:9104     
 
 - job_name: push-gateway
   honor_labels: True
   static_configs:
   - targets:
-    - 192.168.2.100:9091      
+    - 192.168.0.100:9091      
 
 - job_name: grafana
   static_configs:
   - targets:
-    - 192.168.2.100:3000
+    - 192.168.0.100:3000
 
 - job_name: sql-server
   static_configs:
   - targets:
-    - 192.168.2.100:4000
+    - 192.168.0.100:4000

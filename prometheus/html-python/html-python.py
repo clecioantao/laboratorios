@@ -12,5 +12,5 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     start_http_server(5001)     
-    server = http.server.HTTPServer(('192.168.2.100', 5000), MyHandler)
+    server = http.server.HTTPServer(('192.168.0.100', 5000), MyHandler)
     server.serve_forever()

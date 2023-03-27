@@ -16,6 +16,7 @@ services:
             - GF_SECURITY_ADMIN_USER=clecio
             - GF_SECURITY_ADMIN_PASSWORD=lab2022 
             - GF_USERS_ALLOW_SIGN_UP=false 
+            - GF_INSTALL_PLUGINS=alexanderzobnin-zabbix-app
         restart: unless-stopped
         ports: 
             - "3000:3000"

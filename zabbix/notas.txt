@@ -1,0 +1,3 @@
+Tutorial: https://mpolinowski.github.io/docs/DevOps/Zabbix/2022-01-13--zabbix-server-v6/2022-01-13/#configure-the-server
+Admin - Proteu690201
+

@@ -129,7 +129,6 @@ def carrega_dados(params):
 
 ########################################
 
-
 def ingest_newponto(params):
 
     print('entrou ingest_newponto')
@@ -294,7 +293,7 @@ def envia_email(params):
 def popula_elastic_finalizados(params):
 
     # Dados do cluster
-    es_host = '192.168.2.100:9200'
+    es_host = '192.168.0.100:9200'
     index = 'desk_finalizados'
 
     # Cria instancia es_pandas 
@@ -335,7 +334,7 @@ def popula_elastic_finalizados(params):
     # limpa os docs do indice
     headers = {'Content-type': 'application/json',}
     data = '{"query": {"match_all" : {}}}'
-    response = requests.post('http://192.168.2.100:9200/desk_finalizados/_delete_by_query', headers=headers, data=data)
+    response = requests.post('http://192.168.0.100:9200/desk_finalizados/_delete_by_query', headers=headers, data=data)
 
     # limpa indices elasticsearch
     ep.to_es(df1.iloc[500000:], index, doc_type=doc_type, _op_type='delete', thread_count=2, chunk_size=10000)
@@ -347,7 +346,7 @@ def popula_elastic_finalizados(params):
 def popula_elastic_aguardando(params):
 
     # Dados do cluster
-    es_host = 'http://192.168.2.100:9200'
+    es_host = 'http://192.168.0.100:9200'
     #index = 'desk_aguardando'
 
     # Cria instancia es_pandas 
@@ -388,7 +387,7 @@ def popula_elastic_aguardando(params):
     # limpa os docs do indice
     headers = {'Content-type': 'application/json',}
     data = '{"query": {"match_all" : {}}}'
-    response = requests.post('http://192.168.2.100:9200/desk_aguardando/_delete_by_query', headers=headers, data=data)
+    response = requests.post('http://192.168.0.100:9200/desk_aguardando/_delete_by_query', headers=headers, data=data)
 
     # limpa indices elasticsearch
     ep.to_es(df1.iloc[5000:], doc_type, doc_type=doc_type, _op_type='delete', thread_count=2, chunk_size=10000)
