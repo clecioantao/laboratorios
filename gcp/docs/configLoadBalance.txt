@@ -1,0 +1,109 @@
+# erificar qual é a conta ativa:
+gcloud auth list
+
+# Listando Projetos
+gcloud config list project
+
+# Se for preciso setar o projeto, caso você tenha mais de 1
+gcloud config set project <project_id>
+
+# Verificando a Zona e a Região, se aparecer unset é porque não tem nenhuma zona ou região pre-configurada
+gcloud config get-value compute/zone
+gcloud config get-value compute/region
+
+# Se quiser você pode listar as zonas e regiões
+gcloud compute regions list
+gcloud compute zones list
+
+# Configurando a Zona e Região padrão
+gcloud config set compute/zone us-east1-b
+gcloud config set compute/region us-east1
+
+# Criar 3 máquinas virtuais na zona  padrão us-east1-b
+#Maquina 1
+gcloud compute instances create vm01 \
+  --image-family debian-9 \
+  --image-project debian-cloud \
+  --zone us-east1-b \
+  --tags load-balance-tag \
+  --metadata startup-script="#! /bin/bash
+    sudo apt-get update
+    sudo apt-get install apache2 -y
+    sudo service apache2 restart
+    echo '<!doctype html><html><body><h1>Olá Eu sou a Maquina 01</h1></body></gchtml>' | tee /var/www/html/index.html"
+
+#Maquina 2
+gcloud compute instances create vm02 \
+  --image-family debian-9 \
+  --image-project debian-cloud \
+  --zone us-east1-b \
+  --tags load-balance-tag \
+  --metadata startup-script="#! /bin/bash
+    sudo apt-get update
+    sudo apt-get install apache2 -y
+    sudo service apache2 restart
+    echo '<!doctype html><html><body><h1>Olá Eu sou a Maquina 02</h1></body></html>' | tee /var/www/html/index.html"
+	
+#Maquina 3
+gcloud compute instances create vm03 \
+  --image-family debian-9 \
+  --image-project debian-cloud \
+  --zone us-east1-b \
+  --tags load-balance-tag \
+  --metadata startup-script="#! /bin/bash
+    sudo apt-get update
+    sudo apt-get install apache2 -y
+    sudo service apache2 restart
+    echo '<!doctype html><html><body><h1>Olá Eu sou a Maquina 03</h1></body></html>' | tee /var/www/html/index.html"
+
+# Regra de firewall pra permitir tráfego externo pra VM
+gcloud compute firewall-rules create http-firewall-network-lb \
+    --target-tags load-balance-tag --allow tcp:80 
+
+
+# Buscar IP externo das instâncias para verificar que estão executando
+gcloud compute instances list
+
+# Vamos executar o seguinte comando para cada uma das instâncias
+# Você deverá ver uma mensagem diferente para cada IP
+curl http://<IP_EXTERNO>
+
+#Agora vamos configurar o Serviço de Load Balance
+#Vamos começar criando um IP estático
+gcloud compute addresses create load-balance-address --region us-east1
+
+#Vamos criar um recurso de health check
+gcloud compute http-health-checks create basic-check
+
+#Vamos criar um pool e associar o http health check com ele na região us-east1
+gcloud compute target-pools create http-pool --region us-east1 --http-health-check basic-check
+
+#Agora vamos adicionar as maquinas virtuais ao pool http-pool
+gcloud compute target-pools add-instances http-pool --instances vm01,vm02,vm03
+
+
+# Agora vamos criar uma regra que redireciona tráfego para o pool das vms: vm01, vm02 e vm03
+gcloud compute forwarding-rules create http-rule \
+    --region us-east1 \
+    --ports 80 \
+    --address load-balance-address \
+    --target-pool http-pool
+	
+#Vamos mandar tráfego para o pool através do ip estático que criamos 
+#Devemos observar a mudança da resposta das máquinas a cada iteração
+#Primeiro vamos pegar o ip externo, em seguida vamos criar um loop
+#usando o comando curl para buscar o arquivo index.html
+gcloud compute forwarding-rules describe http-rule --region us-east1
+
+#O Loop a seguir vai usar como target o IP externo que criamos anteriormente
+#lembre-se de substituir pelo IP retornado pelo comando anterior
+#o comando "sleep 2" é apenas um delay de 2 segundos entre as execuções
+while true; do curl -m1 IP_ADDRESS; sleep 2;done
+
+
+
+
+
+
+
+

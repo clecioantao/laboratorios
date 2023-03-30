@@ -1,0 +1,97 @@
+#Vamos criar um Template de Máquina virtual chamado lb-backend-template
+#Esse template será responsável pela instalação do apache
+#sempre que o instance group expandir e criar uma nova máquina
+#Nesse exemplo estamos escolhendo a região us-east1
+#Vamos também instalar o apache 
+#na página index.html vamos inserir a variável $vm_hostname
+#essa variável vai mostrar de qual máquina virtual estamos 
+#recuperando a página html
+gcloud compute instance-templates create lb-backend-template \
+   --region=us-east1 \
+   --network=default \
+   --subnet=default \
+   --tags=allow-health-check \
+   --image-family=debian-9 \
+   --image-project=debian-cloud \
+   --metadata=startup-script='#! /bin/bash
+     apt-get update
+     apt-get install apache2 -y
+     a2ensite default-ssl
+     a2enmod ssl
+     vm_hostname="$(curl -H "Metadata-Flavor:Google" \
+     http://169.254.169.254/computeMetadata/v1/instance/name)"
+     echo "Page served from: $vm_hostname" | \
+     tee /var/www/html/index.html
+     systemctl restart apache2'
+	 
+#Agora vamos criar um Managed Instance group que vai usar do template
+#que criamos no passo anterior
+gcloud compute instance-groups managed create lb-backend-group \
+   --template=lb-backend-template --size=2 --zone=us-east1-b
+   
+#Agora vamos criar uma regra de firewall que vai permitir tráfego
+#vindo do Google Health Check. As VMs vão herdar automaticamente
+#essa regra por causa da tag "allow-health-check" que foi definida
+#no primeiro passo onde foi criado o template de instancias
+gcloud compute firewall-rules create fw-allow-health-check \
+    --network=default \
+    --action=allow \
+    --direction=ingress \
+    --source-ranges=130.211.0.0/22,35.191.0.0/16 \
+    --target-tags=allow-health-check \
+    --rules=tcp:80
+
+#Com a regra de firewall criada vamos criar um ip global
+#para que qualquer pessoa no mundo possa chegar até esse IP.
+#Esse é o ip que será usado como IP do load balancer
+gcloud compute addresses create lb-ipv4-1 \
+    --ip-version=IPV4 \
+    --global
+
+#Agora vamos recuperar o IP criado
+gcloud compute addresses describe lb-ipv4-1 \
+    --format="get(address)" \
+    --global
+	
+#Vamos criar um health check para o load balancer
+    gcloud compute health-checks create http http-basic-check \
+        --port 80
+
+#Vamos criar um serviço de Back End para receber qualquer VM 
+#que seja criada dentro do Instance group lb-backend-group
+    gcloud compute backend-services create web-backend-service \
+        --protocol=HTTP \
+        --port-name=http \
+        --health-checks=http-basic-check \
+        --global
+
+#Agora vamos adicionar o instance group ao serviço 
+#de backend
+    gcloud compute backend-services add-backend web-backend-service \
+        --instance-group=lb-backend-group \
+        --instance-group-zone=us-east1-b \
+        --global
+
+#Agora vamos criar uma URL Map para rotear as requisições
+#para o serviço de backend
+    gcloud compute url-maps create web-map-http \
+        --default-service web-backend-service
+
+#Vamos criar um Proxy HTTP para rotear as requests
+#para a URL Mapeada
+    gcloud compute target-http-proxies create http-lb-proxy \
+        --url-map web-map-http
+
+#Vamos criar uma regra de encaminhamento para rotear
+#requisições para o proxy
+    gcloud compute forwarding-rules create http-content-rule \
+        --address=lb-ipv4-1\
+        --global \
+        --target-http-proxy=http-lb-proxy \
+        --ports=80
+
+
+
+
+
+

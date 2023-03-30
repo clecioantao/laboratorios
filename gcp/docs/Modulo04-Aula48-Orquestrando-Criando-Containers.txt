@@ -1,0 +1,24 @@
+#Verificando conteudo do arquivo
+cat deployments/auth.yaml
+
+#Criando Objeto de Deploy
+kubectl create -f deployments/auth.yaml
+
+#Criando Serviço
+kubectl create -f services/auth.yaml
+
+#Criando e expondo o Deployment do Hello
+kubectl create -f deployments/hello.yaml
+kubectl create -f services/hello.yaml
+
+#Criando e Expondo o Front End Deployment
+kubectl create configmap nginx-frontend-conf --from-file=nginx/frontend.conf
+kubectl create -f deployments/frontend.yaml
+kubectl create -f services/frontend.yaml
+
+
+#Interagindo com o microservice
+kubectl get services frontend
+curl -k https://<EXTERNAL-IP>
+
+

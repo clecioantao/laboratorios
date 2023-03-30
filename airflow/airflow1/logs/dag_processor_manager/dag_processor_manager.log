@@ -1,0 +1,2133 @@
+[2023-03-27 18:12:16,197] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2023-03-27 18:12:16,197] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2023-03-27 18:12:16,198] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-03-27 18:12:16,198] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 18:12:16,263] {manager.py:687} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 18:12:16,587] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/etl_deskmanager.py     176  0.14s             0           0
+/opt/airflow/dags/etl_newponto.py        178  0.12s             0           0
+/opt/airflow/dags/etl_elastic_desk.py                           0           0
+/opt/airflow/dags/utils/callables.py                            0           0
+================================================================================
+[2023-03-27 18:12:46,794] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  2.60s           2023-03-27T18:12:19
+/opt/airflow/dags/etl_newponto.py                               0           1  2.39s           2023-03-27T18:12:18
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  1.29s           2023-03-27T18:12:20
+/opt/airflow/dags/utils/callables.py                            0           1  1.50s           2023-03-27T18:12:20
+================================================================================
+[2023-03-27 18:13:17,296] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  1.22s           2023-03-27T18:12:50
+/opt/airflow/dags/etl_newponto.py                               0           1  1.13s           2023-03-27T18:12:50
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.62s           2023-03-27T18:12:51
+/opt/airflow/dags/utils/callables.py                            0           1  0.64s           2023-03-27T18:12:51
+================================================================================
+[2023-03-27 18:13:47,930] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.52s           2023-03-27T18:13:21
+/opt/airflow/dags/etl_newponto.py                               0           1  0.50s           2023-03-27T18:13:21
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.45s           2023-03-27T18:13:22
+/opt/airflow/dags/utils/callables.py                            0           1  0.44s           2023-03-27T18:13:22
+================================================================================
+[2023-03-27 18:14:18,692] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.55s           2023-03-27T18:13:52
+/opt/airflow/dags/etl_newponto.py                               0           1  0.56s           2023-03-27T18:13:52
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.64s           2023-03-27T18:13:53
+/opt/airflow/dags/utils/callables.py                            0           1  0.47s           2023-03-27T18:13:53
+================================================================================
+[2023-03-27 18:14:48,833] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.55s           2023-03-27T18:14:23
+/opt/airflow/dags/etl_newponto.py                               0           1  0.52s           2023-03-27T18:14:23
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.49s           2023-03-27T18:14:23
+/opt/airflow/dags/utils/callables.py                            0           1  0.43s           2023-03-27T18:14:24
+================================================================================
+[2023-03-27 18:15:18,844] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.54s           2023-03-27T18:14:53
+/opt/airflow/dags/etl_newponto.py                               0           1  0.55s           2023-03-27T18:14:53
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.45s           2023-03-27T18:14:54
+/opt/airflow/dags/utils/callables.py                            0           1  0.48s           2023-03-27T18:14:54
+================================================================================
+[2023-03-27 18:15:48,893] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.54s           2023-03-27T18:15:24
+/opt/airflow/dags/etl_newponto.py                               0           1  0.51s           2023-03-27T18:15:24
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.45s           2023-03-27T18:15:24
+/opt/airflow/dags/utils/callables.py                            0           1  0.41s           2023-03-27T18:15:25
+================================================================================
+[2023-03-27 18:16:18,945] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.45s           2023-03-27T18:15:55
+/opt/airflow/dags/etl_newponto.py                               0           1  0.44s           2023-03-27T18:15:55
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.53s           2023-03-27T18:15:55
+/opt/airflow/dags/utils/callables.py                            0           1  0.52s           2023-03-27T18:15:55
+================================================================================
+[2023-03-27 18:16:25,871] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15
+[2023-03-27 18:17:08,055] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2023-03-27 18:17:08,056] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2023-03-27 18:17:08,056] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-03-27 18:17:08,056] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 18:17:08,058] {manager.py:687} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 18:17:08,184] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/etl_deskmanager.py     168  0.03s             0           0
+/opt/airflow/dags/etl_newponto.py        169  0.02s             0           0
+/opt/airflow/dags/etl_elastic_desk.py                           0           0
+/opt/airflow/dags/utils/callables.py                            0           0
+================================================================================
+[2023-03-27 18:17:38,508] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  1.15s           2023-03-27T18:17:09
+/opt/airflow/dags/etl_newponto.py                               0           1  0.86s           2023-03-27T18:17:09
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  1.32s           2023-03-27T18:17:10
+/opt/airflow/dags/utils/callables.py                            0           1  1.00s           2023-03-27T18:17:10
+================================================================================
+[2023-03-27 18:18:08,741] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.65s           2023-03-27T18:17:40
+/opt/airflow/dags/etl_newponto.py                               0           1  0.60s           2023-03-27T18:17:40
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.52s           2023-03-27T18:17:41
+/opt/airflow/dags/utils/callables.py                            0           1  0.54s           2023-03-27T18:17:41
+================================================================================
+[2023-03-27 18:18:38,994] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.63s           2023-03-27T18:18:11
+/opt/airflow/dags/etl_newponto.py                               0           1  0.64s           2023-03-27T18:18:11
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.51s           2023-03-27T18:18:12
+/opt/airflow/dags/utils/callables.py                            0           1  0.49s           2023-03-27T18:18:12
+================================================================================
+[2023-03-27 18:19:09,000] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.57s           2023-03-27T18:18:42
+/opt/airflow/dags/etl_newponto.py                               0           1  0.58s           2023-03-27T18:18:42
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.53s           2023-03-27T18:18:44
+/opt/airflow/dags/utils/callables.py                            0           1  0.51s           2023-03-27T18:18:44
+================================================================================
+[2023-03-27 18:19:39,225] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.54s           2023-03-27T18:19:13
+/opt/airflow/dags/etl_newponto.py                               0           1  0.54s           2023-03-27T18:19:13
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.57s           2023-03-27T18:19:15
+/opt/airflow/dags/utils/callables.py                            0           1  0.58s           2023-03-27T18:19:15
+================================================================================
+[2023-03-27 18:20:09,307] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.51s           2023-03-27T18:19:44
+/opt/airflow/dags/etl_newponto.py                               0           1  0.54s           2023-03-27T18:19:44
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.48s           2023-03-27T18:19:46
+/opt/airflow/dags/utils/callables.py                            0           1  0.47s           2023-03-27T18:19:46
+================================================================================
+[2023-03-27 18:20:39,567] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.64s           2023-03-27T18:20:15
+/opt/airflow/dags/etl_newponto.py                               0           1  0.62s           2023-03-27T18:20:15
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.51s           2023-03-27T18:20:17
+/opt/airflow/dags/utils/callables.py                            0           1  0.48s           2023-03-27T18:20:17
+================================================================================
+[2023-03-27 18:21:09,821] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.65s           2023-03-27T18:20:47
+/opt/airflow/dags/etl_newponto.py                               0           1  0.63s           2023-03-27T18:20:47
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.50s           2023-03-27T18:20:48
+/opt/airflow/dags/utils/callables.py                            0           1  0.50s           2023-03-27T18:20:48
+================================================================================
+[2023-03-27 18:21:40,496] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.51s           2023-03-27T18:21:17
+/opt/airflow/dags/etl_newponto.py                               0           1  0.50s           2023-03-27T18:21:17
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.53s           2023-03-27T18:21:19
+/opt/airflow/dags/utils/callables.py                            0           1  0.52s           2023-03-27T18:21:19
+================================================================================
+[2023-03-27 18:22:08,298] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 18:22:08,303] {manager.py:687} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 18:22:11,335] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.53s           2023-03-27T18:21:49
+/opt/airflow/dags/etl_newponto.py                               0           1  0.52s           2023-03-27T18:21:49
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.71s           2023-03-27T18:21:50
+/opt/airflow/dags/utils/callables.py                            0           1  0.66s           2023-03-27T18:21:50
+================================================================================
+[2023-03-27 18:22:41,868] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.60s           2023-03-27T18:22:19
+/opt/airflow/dags/etl_newponto.py                               0           1  0.60s           2023-03-27T18:22:19
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.48s           2023-03-27T18:22:21
+/opt/airflow/dags/utils/callables.py                            0           1  0.45s           2023-03-27T18:22:21
+================================================================================
+[2023-03-27 18:23:12,099] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.45s           2023-03-27T18:22:51
+/opt/airflow/dags/etl_newponto.py                               0           1  0.44s           2023-03-27T18:22:51
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.59s           2023-03-27T18:22:52
+/opt/airflow/dags/utils/callables.py                            0           1  0.55s           2023-03-27T18:22:52
+================================================================================
+[2023-03-27 18:23:42,387] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.54s           2023-03-27T18:23:22
+/opt/airflow/dags/etl_newponto.py                               0           1  0.51s           2023-03-27T18:23:22
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.62s           2023-03-27T18:23:24
+/opt/airflow/dags/utils/callables.py                            0           1  0.60s           2023-03-27T18:23:24
+================================================================================
+[2023-03-27 18:24:12,771] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.66s           2023-03-27T18:23:54
+/opt/airflow/dags/etl_newponto.py                               0           1  0.61s           2023-03-27T18:23:54
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.65s           2023-03-27T18:23:55
+/opt/airflow/dags/utils/callables.py                            0           1  0.66s           2023-03-27T18:23:55
+================================================================================
+[2023-03-27 18:24:42,964] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.52s           2023-03-27T18:24:25
+/opt/airflow/dags/etl_newponto.py                               0           1  0.50s           2023-03-27T18:24:25
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.55s           2023-03-27T18:24:26
+/opt/airflow/dags/utils/callables.py                            0           1  0.54s           2023-03-27T18:24:26
+================================================================================
+[2023-03-27 18:25:13,632] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.54s           2023-03-27T18:24:56
+/opt/airflow/dags/etl_newponto.py                               0           1  0.52s           2023-03-27T18:24:56
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.53s           2023-03-27T18:24:57
+/opt/airflow/dags/utils/callables.py                            0           1  0.50s           2023-03-27T18:24:57
+================================================================================
+[2023-03-27 18:25:44,342] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.93s           2023-03-27T18:25:27
+/opt/airflow/dags/etl_newponto.py                               0           1  1.12s           2023-03-27T18:25:27
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  1.17s           2023-03-27T18:25:28
+/opt/airflow/dags/utils/callables.py                            0           1  1.01s           2023-03-27T18:25:28
+================================================================================
+[2023-03-27 18:26:14,958] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.47s           2023-03-27T18:25:58
+/opt/airflow/dags/etl_newponto.py                               0           1  0.54s           2023-03-27T18:25:58
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.56s           2023-03-27T18:25:59
+/opt/airflow/dags/utils/callables.py                            0           1  0.57s           2023-03-27T18:25:59
+================================================================================
+[2023-03-27 18:26:45,135] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.57s           2023-03-27T18:26:29
+/opt/airflow/dags/etl_newponto.py                               0           1  0.58s           2023-03-27T18:26:29
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.49s           2023-03-27T18:26:31
+/opt/airflow/dags/utils/callables.py                            0           1  0.48s           2023-03-27T18:26:31
+================================================================================
+[2023-03-27 18:27:09,206] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 18:27:09,209] {manager.py:687} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 18:27:15,240] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.54s           2023-03-27T18:27:00
+/opt/airflow/dags/etl_newponto.py                               0           1  0.51s           2023-03-27T18:27:00
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.48s           2023-03-27T18:27:02
+/opt/airflow/dags/utils/callables.py                            0           1  0.48s           2023-03-27T18:27:02
+================================================================================
+[2023-03-27 18:27:45,869] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.49s           2023-03-27T18:27:31
+/opt/airflow/dags/etl_newponto.py                               0           1  0.49s           2023-03-27T18:27:31
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.54s           2023-03-27T18:27:32
+/opt/airflow/dags/utils/callables.py                            0           1  0.51s           2023-03-27T18:27:32
+================================================================================
+[2023-03-27 18:28:15,883] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_deskmanager.py                            0           1  0.97s           2023-03-27T18:28:02
+/opt/airflow/dags/etl_newponto.py                               0           1  0.80s           2023-03-27T18:28:02
+/opt/airflow/dags/etl_elastic_desk.py                           0           1  0.69s           2023-03-27T18:28:03
+/opt/airflow/dags/utils/callables.py                            0           1  0.72s           2023-03-27T18:28:03
+================================================================================
+[2023-03-27 18:28:34,889] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15
+[2023-03-27 18:28:34,890] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15
+[2023-03-27 18:28:35,197] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15
+[2023-03-27 18:28:35,282] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15
+[2023-03-27 18:29:02,411] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-03-27 18:29:02,411] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-03-27 18:29:02,411] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-03-27 18:29:02,411] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 18:29:02,415] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 18:29:02,488] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/etl_deskmanager.py     175  0.03s             0           0
+/opt/airflow/dags/etl_newponto.py        176  0.02s             0           0
+/opt/airflow/dags/etl_elastic_desk.py                           0           0
+/opt/airflow/dags/utils/callables.py                            0           0
+================================================================================
+[2023-03-27 18:29:33,101] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  1.16s           2023-03-27T18:29:04
+/opt/airflow/dags/etl_deskmanager.py                            1           0  1.28s           2023-03-27T18:29:03
+/opt/airflow/dags/etl_newponto.py                               1           0  1.25s           2023-03-27T18:29:03
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  1.50s           2023-03-27T18:29:05
+================================================================================
+[2023-03-27 18:30:03,316] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.45s           2023-03-27T18:29:36
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.61s           2023-03-27T18:29:34
+/opt/airflow/dags/etl_newponto.py                               1           0  0.65s           2023-03-27T18:29:34
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  1.68s           2023-03-27T18:29:37
+================================================================================
+[2023-03-27 18:30:33,360] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.54s           2023-03-27T18:30:06
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.87s           2023-03-27T18:30:06
+/opt/airflow/dags/etl_newponto.py                               1           0  0.87s           2023-03-27T18:30:06
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.53s           2023-03-27T18:30:08
+================================================================================
+[2023-03-27 18:31:04,029] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.54s           2023-03-27T18:30:37
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.63s           2023-03-27T18:30:36
+/opt/airflow/dags/etl_newponto.py                               1           0  0.64s           2023-03-27T18:30:36
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.59s           2023-03-27T18:30:39
+================================================================================
+[2023-03-27 18:31:34,111] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.42s           2023-03-27T18:31:07
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.53s           2023-03-27T18:31:07
+/opt/airflow/dags/etl_newponto.py                               1           0  0.58s           2023-03-27T18:31:07
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.48s           2023-03-27T18:31:10
+================================================================================
+[2023-03-27 18:32:04,307] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.44s           2023-03-27T18:31:39
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.65s           2023-03-27T18:31:38
+/opt/airflow/dags/etl_newponto.py                               1           0  0.64s           2023-03-27T18:31:38
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.59s           2023-03-27T18:31:40
+================================================================================
+[2023-03-27 18:32:34,556] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.48s           2023-03-27T18:32:09
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.63s           2023-03-27T18:32:09
+/opt/airflow/dags/etl_newponto.py                               1           0  0.57s           2023-03-27T18:32:09
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.50s           2023-03-27T18:32:11
+================================================================================
+[2023-03-27 18:33:04,604] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.81s           2023-03-27T18:32:40
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.60s           2023-03-27T18:32:40
+/opt/airflow/dags/etl_newponto.py                               1           0  0.56s           2023-03-27T18:32:40
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.59s           2023-03-27T18:32:42
+================================================================================
+[2023-03-27 18:33:34,810] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.44s           2023-03-27T18:33:11
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.65s           2023-03-27T18:33:10
+/opt/airflow/dags/etl_newponto.py                               1           0  0.69s           2023-03-27T18:33:10
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.58s           2023-03-27T18:33:13
+================================================================================
+[2023-03-27 18:34:02,694] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 18:34:02,699] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 18:34:05,724] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.46s           2023-03-27T18:33:42
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.65s           2023-03-27T18:33:42
+/opt/airflow/dags/etl_newponto.py                               1           0  0.65s           2023-03-27T18:33:42
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.51s           2023-03-27T18:33:44
+================================================================================
+[2023-03-27 18:34:35,881] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.45s           2023-03-27T18:34:13
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.65s           2023-03-27T18:34:13
+/opt/airflow/dags/etl_newponto.py                               1           0  0.60s           2023-03-27T18:34:13
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.52s           2023-03-27T18:34:15
+================================================================================
+[2023-03-27 18:35:06,085] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.56s           2023-03-27T18:34:44
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.56s           2023-03-27T18:34:43
+/opt/airflow/dags/etl_newponto.py                               1           0  0.58s           2023-03-27T18:34:44
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.54s           2023-03-27T18:34:46
+================================================================================
+[2023-03-27 18:35:36,891] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.47s           2023-03-27T18:35:15
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.69s           2023-03-27T18:35:14
+/opt/airflow/dags/etl_newponto.py                               1           0  0.71s           2023-03-27T18:35:14
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.57s           2023-03-27T18:35:16
+================================================================================
+[2023-03-27 18:36:07,060] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.47s           2023-03-27T18:35:45
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.58s           2023-03-27T18:35:45
+/opt/airflow/dags/etl_newponto.py                               1           0  0.60s           2023-03-27T18:35:45
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.51s           2023-03-27T18:35:47
+================================================================================
+[2023-03-27 18:36:37,255] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.55s           2023-03-27T18:36:16
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.59s           2023-03-27T18:36:16
+/opt/airflow/dags/etl_newponto.py                               1           0  0.59s           2023-03-27T18:36:16
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.53s           2023-03-27T18:36:18
+================================================================================
+[2023-03-27 18:37:08,053] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.52s           2023-03-27T18:36:47
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.69s           2023-03-27T18:36:46
+/opt/airflow/dags/etl_newponto.py                               1           0  0.64s           2023-03-27T18:36:46
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.60s           2023-03-27T18:36:49
+================================================================================
+[2023-03-27 18:37:38,814] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.46s           2023-03-27T18:37:18
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.65s           2023-03-27T18:37:17
+/opt/airflow/dags/etl_newponto.py                               1           0  0.61s           2023-03-27T18:37:17
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.73s           2023-03-27T18:37:19
+================================================================================
+[2023-03-27 18:38:09,625] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.48s           2023-03-27T18:37:48
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.66s           2023-03-27T18:37:48
+/opt/airflow/dags/etl_newponto.py                               1           0  0.61s           2023-03-27T18:37:48
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.62s           2023-03-27T18:37:50
+================================================================================
+[2023-03-27 18:38:40,407] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.56s           2023-03-27T18:38:19
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.63s           2023-03-27T18:38:19
+/opt/airflow/dags/etl_newponto.py                               1           0  0.64s           2023-03-27T18:38:19
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.60s           2023-03-27T18:38:21
+================================================================================
+[2023-03-27 18:39:02,770] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 18:39:02,772] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 18:39:10,813] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.78s           2023-03-27T18:38:51
+/opt/airflow/dags/etl_deskmanager.py                            1           0  1.44s           2023-03-27T18:38:50
+/opt/airflow/dags/etl_newponto.py                               1           0  1.44s           2023-03-27T18:38:50
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.72s           2023-03-27T18:38:52
+================================================================================
+[2023-03-27 18:39:40,873] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.72s           2023-03-27T18:39:22
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.61s           2023-03-27T18:39:21
+/opt/airflow/dags/etl_newponto.py                               1           0  0.55s           2023-03-27T18:39:21
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.67s           2023-03-27T18:39:23
+================================================================================
+[2023-03-27 18:40:11,485] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.49s           2023-03-27T18:39:53
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.67s           2023-03-27T18:39:52
+/opt/airflow/dags/etl_newponto.py                               1           0  0.64s           2023-03-27T18:39:52
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.58s           2023-03-27T18:39:54
+================================================================================
+[2023-03-27 18:40:41,768] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.54s           2023-03-27T18:40:24
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.62s           2023-03-27T18:40:24
+/opt/airflow/dags/etl_newponto.py                               1           0  0.64s           2023-03-27T18:40:24
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.61s           2023-03-27T18:40:24
+================================================================================
+[2023-03-27 18:41:12,336] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.59s           2023-03-27T18:40:56
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.67s           2023-03-27T18:40:55
+/opt/airflow/dags/etl_newponto.py                               1           0  0.74s           2023-03-27T18:40:55
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.66s           2023-03-27T18:40:56
+================================================================================
+[2023-03-27 18:41:42,729] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.55s           2023-03-27T18:41:27
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.73s           2023-03-27T18:41:27
+/opt/airflow/dags/etl_newponto.py                               1           0  0.70s           2023-03-27T18:41:27
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.68s           2023-03-27T18:41:27
+================================================================================
+[2023-03-27 18:42:13,282] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.56s           2023-03-27T18:41:59
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.68s           2023-03-27T18:41:58
+/opt/airflow/dags/etl_newponto.py                               1           0  0.67s           2023-03-27T18:41:58
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.65s           2023-03-27T18:41:59
+================================================================================
+[2023-03-27 18:42:43,390] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.63s           2023-03-27T18:42:30
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.65s           2023-03-27T18:42:29
+/opt/airflow/dags/etl_newponto.py                               1           0  0.64s           2023-03-27T18:42:29
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.64s           2023-03-27T18:42:29
+================================================================================
+[2023-03-27 18:43:14,266] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.51s           2023-03-27T18:43:01
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.69s           2023-03-27T18:43:00
+/opt/airflow/dags/etl_newponto.py                               1           0  0.63s           2023-03-27T18:43:00
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.67s           2023-03-27T18:43:00
+================================================================================
+[2023-03-27 18:43:44,303] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.48s           2023-03-27T18:43:32
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.84s           2023-03-27T18:43:31
+/opt/airflow/dags/etl_newponto.py                               1           0  0.78s           2023-03-27T18:43:31
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.68s           2023-03-27T18:43:31
+================================================================================
+[2023-03-27 18:44:03,060] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 18:44:03,065] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 18:44:14,595] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.52s           2023-03-27T18:44:03
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.77s           2023-03-27T18:44:02
+/opt/airflow/dags/etl_newponto.py                               1           0  0.72s           2023-03-27T18:44:02
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.56s           2023-03-27T18:44:02
+================================================================================
+[2023-03-27 18:44:45,032] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.51s           2023-03-27T18:44:33
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.67s           2023-03-27T18:44:33
+/opt/airflow/dags/etl_newponto.py                               1           0  0.70s           2023-03-27T18:44:33
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.66s           2023-03-27T18:44:33
+================================================================================
+[2023-03-27 18:45:15,721] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.60s           2023-03-27T18:45:05
+/opt/airflow/dags/etl_deskmanager.py                            1           0  1.00s           2023-03-27T18:45:05
+/opt/airflow/dags/etl_newponto.py                               1           0  0.95s           2023-03-27T18:45:05
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.74s           2023-03-27T18:45:05
+================================================================================
+[2023-03-27 18:45:46,127] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.62s           2023-03-27T18:45:37
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.65s           2023-03-27T18:45:36
+/opt/airflow/dags/etl_newponto.py                               1           0  0.67s           2023-03-27T18:45:36
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.68s           2023-03-27T18:45:37
+================================================================================
+[2023-03-27 18:46:16,482] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.57s           2023-03-27T18:46:08
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.66s           2023-03-27T18:46:07
+/opt/airflow/dags/etl_newponto.py                               1           0  0.68s           2023-03-27T18:46:07
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.66s           2023-03-27T18:46:08
+================================================================================
+[2023-03-27 18:46:47,022] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.53s           2023-03-27T18:46:40
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.74s           2023-03-27T18:46:39
+/opt/airflow/dags/etl_newponto.py                               1           0  0.73s           2023-03-27T18:46:39
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.60s           2023-03-27T18:46:39
+================================================================================
+[2023-03-27 18:47:17,310] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.57s           2023-03-27T18:47:11
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.64s           2023-03-27T18:47:09
+/opt/airflow/dags/etl_newponto.py                               1           0  0.74s           2023-03-27T18:47:10
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.71s           2023-03-27T18:47:10
+================================================================================
+[2023-03-27 18:47:47,788] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.62s           2023-03-27T18:47:42
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.69s           2023-03-27T18:47:41
+/opt/airflow/dags/etl_newponto.py                               1           0  0.62s           2023-03-27T18:47:41
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.69s           2023-03-27T18:47:41
+================================================================================
+[2023-03-27 18:48:17,993] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.59s           2023-03-27T18:48:12
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.66s           2023-03-27T18:48:11
+/opt/airflow/dags/etl_newponto.py                               1           0  0.65s           2023-03-27T18:48:12
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.61s           2023-03-27T18:48:12
+================================================================================
+[2023-03-27 18:48:48,674] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.52s           2023-03-27T18:48:43
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.70s           2023-03-27T18:48:42
+/opt/airflow/dags/etl_newponto.py                               1           0  0.59s           2023-03-27T18:48:43
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.64s           2023-03-27T18:48:43
+================================================================================
+[2023-03-27 18:49:03,836] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 18:49:03,838] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 18:49:18,836] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.59s           2023-03-27T18:49:14
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.64s           2023-03-27T18:49:13
+/opt/airflow/dags/etl_newponto.py                               1           0  0.65s           2023-03-27T18:49:14
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.68s           2023-03-27T18:49:14
+================================================================================
+[2023-03-27 18:49:48,900] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.74s           2023-03-27T18:49:45
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.69s           2023-03-27T18:49:44
+/opt/airflow/dags/etl_newponto.py                               1           0  0.68s           2023-03-27T18:49:45
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.77s           2023-03-27T18:49:45
+================================================================================
+[2023-03-27 18:50:19,002] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.84s           2023-03-27T18:50:16
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.68s           2023-03-27T18:50:15
+/opt/airflow/dags/etl_newponto.py                               1           0  0.67s           2023-03-27T18:50:16
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.81s           2023-03-27T18:50:16
+================================================================================
+[2023-03-27 18:50:49,030] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.68s           2023-03-27T18:50:48
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.68s           2023-03-27T18:50:46
+/opt/airflow/dags/etl_newponto.py                               1           0  0.64s           2023-03-27T18:50:47
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.91s           2023-03-27T18:50:48
+================================================================================
+[2023-03-27 18:51:19,268] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.57s           2023-03-27T18:51:19
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.87s           2023-03-27T18:51:17
+/opt/airflow/dags/etl_newponto.py                               1           0  0.71s           2023-03-27T18:51:18
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.70s           2023-03-27T18:51:18
+================================================================================
+[2023-03-27 18:51:49,674] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py    1322  0.01s             0           0  0.57s           2023-03-27T18:51:19
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.63s           2023-03-27T18:51:49
+/opt/airflow/dags/etl_newponto.py                               1           0  0.71s           2023-03-27T18:51:49
+/opt/airflow/dags/etl_elastic_desk.py   1315  0.66s             1           0  0.70s           2023-03-27T18:51:18
+================================================================================
+[2023-03-27 18:52:19,898] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.50s           2023-03-27T18:51:50
+/opt/airflow/dags/etl_deskmanager.py    1330  0.65s             1           0  0.63s           2023-03-27T18:51:49
+/opt/airflow/dags/etl_newponto.py       1336  0.01s             1           0  0.71s           2023-03-27T18:51:49
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.75s           2023-03-27T18:51:49
+================================================================================
+[2023-03-27 18:52:50,002] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.60s           2023-03-27T18:52:21
+/opt/airflow/dags/etl_deskmanager.py    1354  0.01s             1           0  0.66s           2023-03-27T18:52:19
+/opt/airflow/dags/etl_newponto.py                               1           0  0.72s           2023-03-27T18:52:20
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.70s           2023-03-27T18:52:20
+================================================================================
+[2023-03-27 18:53:20,051] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.64s           2023-03-27T18:52:51
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.68s           2023-03-27T18:52:50
+/opt/airflow/dags/etl_newponto.py                               1           0  0.63s           2023-03-27T18:52:51
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.64s           2023-03-27T18:52:51
+================================================================================
+[2023-03-27 18:53:50,690] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.58s           2023-03-27T18:53:22
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.89s           2023-03-27T18:53:21
+/opt/airflow/dags/etl_newponto.py                               1           0  0.85s           2023-03-27T18:53:22
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.67s           2023-03-27T18:53:22
+================================================================================
+[2023-03-27 18:54:03,944] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 18:54:03,946] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 18:54:21,612] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.60s           2023-03-27T18:53:53
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.60s           2023-03-27T18:53:53
+/opt/airflow/dags/etl_newponto.py                               1           0  0.62s           2023-03-27T18:53:53
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.70s           2023-03-27T18:53:54
+================================================================================
+[2023-03-27 18:54:52,024] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.61s           2023-03-27T18:54:24
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.64s           2023-03-27T18:54:24
+/opt/airflow/dags/etl_newponto.py                               1           0  0.68s           2023-03-27T18:54:24
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.67s           2023-03-27T18:54:24
+================================================================================
+[2023-03-27 18:55:22,614] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.70s           2023-03-27T18:54:56
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.75s           2023-03-27T18:54:55
+/opt/airflow/dags/etl_newponto.py                               1           0  0.70s           2023-03-27T18:54:55
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.76s           2023-03-27T18:54:56
+================================================================================
+[2023-03-27 18:55:53,035] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.64s           2023-03-27T18:55:27
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.69s           2023-03-27T18:55:27
+/opt/airflow/dags/etl_newponto.py                               1           0  0.66s           2023-03-27T18:55:27
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.71s           2023-03-27T18:55:28
+================================================================================
+[2023-03-27 18:56:23,404] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.56s           2023-03-27T18:55:59
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.67s           2023-03-27T18:55:58
+/opt/airflow/dags/etl_newponto.py                               1           0  0.65s           2023-03-27T18:55:58
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.63s           2023-03-27T18:55:59
+================================================================================
+[2023-03-27 18:56:53,967] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.76s           2023-03-27T18:56:30
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.70s           2023-03-27T18:56:30
+/opt/airflow/dags/etl_newponto.py                               1           0  0.66s           2023-03-27T18:56:30
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.88s           2023-03-27T18:56:30
+================================================================================
+[2023-03-27 18:57:24,764] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.85s           2023-03-27T18:57:02
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.83s           2023-03-27T18:57:01
+/opt/airflow/dags/etl_newponto.py                               1           0  0.75s           2023-03-27T18:57:01
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  1.06s           2023-03-27T18:57:02
+================================================================================
+[2023-03-27 18:57:55,598] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  1.09s           2023-03-27T18:57:35
+/opt/airflow/dags/etl_deskmanager.py                            1           0  2.57s           2023-03-27T18:57:34
+/opt/airflow/dags/etl_newponto.py                               1           0  2.60s           2023-03-27T18:57:34
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  1.20s           2023-03-27T18:57:35
+================================================================================
+[2023-03-27 18:58:25,934] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.59s           2023-03-27T18:58:06
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.63s           2023-03-27T18:58:05
+/opt/airflow/dags/etl_newponto.py                               1           0  0.62s           2023-03-27T18:58:05
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.69s           2023-03-27T18:58:06
+================================================================================
+[2023-03-27 18:58:56,428] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.55s           2023-03-27T18:58:38
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.86s           2023-03-27T18:58:36
+/opt/airflow/dags/etl_newponto.py                               1           0  0.81s           2023-03-27T18:58:36
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.81s           2023-03-27T18:58:38
+================================================================================
+[2023-03-27 18:59:04,443] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 18:59:04,446] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 18:59:27,021] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.54s           2023-03-27T18:59:09
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.81s           2023-03-27T18:59:08
+/opt/airflow/dags/etl_newponto.py                               1           0  0.79s           2023-03-27T18:59:08
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.63s           2023-03-27T18:59:09
+================================================================================
+[2023-03-27 18:59:57,556] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.73s           2023-03-27T18:59:41
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.71s           2023-03-27T18:59:39
+/opt/airflow/dags/etl_newponto.py                               1           0  0.73s           2023-03-27T18:59:39
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.80s           2023-03-27T18:59:41
+================================================================================
+[2023-03-27 19:00:27,683] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.83s           2023-03-27T19:00:12
+/opt/airflow/dags/etl_deskmanager.py                            1           0  1.09s           2023-03-27T19:00:11
+/opt/airflow/dags/etl_newponto.py                               1           0  1.17s           2023-03-27T19:00:11
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.90s           2023-03-27T19:00:12
+================================================================================
+[2023-03-27 19:00:57,960] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.70s           2023-03-27T19:00:44
+/opt/airflow/dags/etl_deskmanager.py                            1           0  1.65s           2023-03-27T19:00:43
+/opt/airflow/dags/etl_newponto.py                               1           0  1.47s           2023-03-27T19:00:44
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  1.05s           2023-03-27T19:00:44
+================================================================================
+[2023-03-27 19:01:28,934] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.60s           2023-03-27T19:01:15
+/opt/airflow/dags/etl_deskmanager.py                            1           0  1.50s           2023-03-27T19:01:15
+/opt/airflow/dags/etl_newponto.py                               1           0  0.78s           2023-03-27T19:01:15
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.82s           2023-03-27T19:01:15
+================================================================================
+[2023-03-27 19:01:58,964] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.61s           2023-03-27T19:01:47
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.66s           2023-03-27T19:01:45
+/opt/airflow/dags/etl_newponto.py                               1           0  0.70s           2023-03-27T19:01:46
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.75s           2023-03-27T19:01:46
+================================================================================
+[2023-03-27 19:02:29,071] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.61s           2023-03-27T19:02:18
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.82s           2023-03-27T19:02:16
+/opt/airflow/dags/etl_newponto.py                               1           0  1.04s           2023-03-27T19:02:18
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  1.05s           2023-03-27T19:02:18
+================================================================================
+[2023-03-27 19:02:59,085] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.53s           2023-03-27T19:02:50
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.67s           2023-03-27T19:02:47
+/opt/airflow/dags/etl_newponto.py                               1           0  0.79s           2023-03-27T19:02:49
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.82s           2023-03-27T19:02:49
+================================================================================
+[2023-03-27 19:03:29,291] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.53s           2023-03-27T19:03:20
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.55s           2023-03-27T19:03:18
+/opt/airflow/dags/etl_newponto.py                               1           0  0.59s           2023-03-27T19:03:20
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.61s           2023-03-27T19:03:20
+================================================================================
+[2023-03-27 19:03:59,594] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.55s           2023-03-27T19:03:51
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.62s           2023-03-27T19:03:49
+/opt/airflow/dags/etl_newponto.py                               1           0  0.66s           2023-03-27T19:03:51
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.62s           2023-03-27T19:03:50
+================================================================================
+[2023-03-27 19:04:04,604] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 19:04:04,606] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 19:04:29,973] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.53s           2023-03-27T19:04:22
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.60s           2023-03-27T19:04:20
+/opt/airflow/dags/etl_newponto.py                               1           0  0.68s           2023-03-27T19:04:21
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.62s           2023-03-27T19:04:21
+================================================================================
+[2023-03-27 19:05:00,239] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.55s           2023-03-27T19:04:53
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.63s           2023-03-27T19:04:51
+/opt/airflow/dags/etl_newponto.py                               1           0  0.65s           2023-03-27T19:04:52
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.62s           2023-03-27T19:04:52
+================================================================================
+[2023-03-27 19:05:30,637] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.52s           2023-03-27T19:05:24
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.64s           2023-03-27T19:05:21
+/opt/airflow/dags/etl_newponto.py                               1           0  0.68s           2023-03-27T19:05:23
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.64s           2023-03-27T19:05:23
+================================================================================
+[2023-03-27 19:06:00,897] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.56s           2023-03-27T19:05:54
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.58s           2023-03-27T19:05:52
+/opt/airflow/dags/etl_newponto.py                               1           0  0.59s           2023-03-27T19:05:54
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.61s           2023-03-27T19:05:54
+================================================================================
+[2023-03-27 19:06:31,163] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.61s           2023-03-27T19:06:25
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.55s           2023-03-27T19:06:23
+/opt/airflow/dags/etl_newponto.py                               1           0  0.64s           2023-03-27T19:06:25
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.67s           2023-03-27T19:06:25
+================================================================================
+[2023-03-27 19:07:01,675] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.69s           2023-03-27T19:06:56
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.64s           2023-03-27T19:06:54
+/opt/airflow/dags/etl_newponto.py                               1           0  0.75s           2023-03-27T19:06:55
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.81s           2023-03-27T19:06:56
+================================================================================
+[2023-03-27 19:07:31,983] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.58s           2023-03-27T19:07:27
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.69s           2023-03-27T19:07:25
+/opt/airflow/dags/etl_newponto.py                               1           0  0.74s           2023-03-27T19:07:26
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.81s           2023-03-27T19:07:26
+================================================================================
+[2023-03-27 19:08:02,472] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.53s           2023-03-27T19:07:58
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.65s           2023-03-27T19:07:56
+/opt/airflow/dags/etl_newponto.py                               1           0  0.63s           2023-03-27T19:07:57
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.63s           2023-03-27T19:07:57
+================================================================================
+[2023-03-27 19:08:32,827] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.60s           2023-03-27T19:08:29
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.71s           2023-03-27T19:08:27
+/opt/airflow/dags/etl_newponto.py                               1           0  0.70s           2023-03-27T19:08:28
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.76s           2023-03-27T19:08:28
+================================================================================
+[2023-03-27 19:09:03,174] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.60s           2023-03-27T19:09:00
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.72s           2023-03-27T19:08:58
+/opt/airflow/dags/etl_newponto.py                               1           0  0.63s           2023-03-27T19:08:59
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.63s           2023-03-27T19:08:59
+================================================================================
+[2023-03-27 19:09:05,181] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 19:09:05,183] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 19:09:33,535] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.56s           2023-03-27T19:09:31
+/opt/airflow/dags/etl_deskmanager.py                            1           0  1.82s           2023-03-27T19:09:30
+/opt/airflow/dags/etl_newponto.py                               1           0  1.27s           2023-03-27T19:09:30
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.87s           2023-03-27T19:09:30
+================================================================================
+[2023-03-27 19:10:03,679] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.59s           2023-03-27T19:10:02
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.93s           2023-03-27T19:10:01
+/opt/airflow/dags/etl_newponto.py                               1           0  1.01s           2023-03-27T19:10:02
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.71s           2023-03-27T19:10:02
+================================================================================
+[2023-03-27 19:10:33,735] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.52s           2023-03-27T19:10:33
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.61s           2023-03-27T19:10:32
+/opt/airflow/dags/etl_newponto.py                               1           0  0.93s           2023-03-27T19:10:33
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.75s           2023-03-27T19:10:33
+================================================================================
+[2023-03-27 19:11:04,108] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py    2332  0.01s             0           0  0.52s           2023-03-27T19:10:33
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.56s           2023-03-27T19:11:03
+/opt/airflow/dags/etl_newponto.py                               1           0  0.70s           2023-03-27T19:11:04
+/opt/airflow/dags/etl_elastic_desk.py   2323  0.71s             1           0  0.75s           2023-03-27T19:10:33
+================================================================================
+[2023-03-27 19:11:34,879] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.51s           2023-03-27T19:11:04
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.54s           2023-03-27T19:11:33
+/opt/airflow/dags/etl_newponto.py       2344  0.01s             1           0  0.70s           2023-03-27T19:11:04
+/opt/airflow/dags/etl_elastic_desk.py   2345  0.01s             1           0  0.72s           2023-03-27T19:11:04
+================================================================================
+[2023-03-27 19:12:04,947] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.58s           2023-03-27T19:11:36
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.70s           2023-03-27T19:12:04
+/opt/airflow/dags/etl_newponto.py                               1           0  0.74s           2023-03-27T19:11:35
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.76s           2023-03-27T19:11:35
+================================================================================
+[2023-03-27 19:12:35,153] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.60s           2023-03-27T19:12:07
+/opt/airflow/dags/etl_deskmanager.py    2386  0.01s             1           0  0.70s           2023-03-27T19:12:04
+/opt/airflow/dags/etl_newponto.py                               1           0  0.72s           2023-03-27T19:12:06
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.75s           2023-03-27T19:12:06
+================================================================================
+[2023-03-27 19:13:05,677] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.54s           2023-03-27T19:12:37
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.61s           2023-03-27T19:12:35
+/opt/airflow/dags/etl_newponto.py                               1           0  0.60s           2023-03-27T19:12:37
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.62s           2023-03-27T19:12:37
+================================================================================
+[2023-03-27 19:13:36,065] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.63s           2023-03-27T19:13:08
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.59s           2023-03-27T19:13:07
+/opt/airflow/dags/etl_newponto.py                               1           0  0.66s           2023-03-27T19:13:07
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.67s           2023-03-27T19:13:07
+================================================================================
+[2023-03-27 19:14:05,414] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 19:14:05,417] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 19:14:06,444] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.55s           2023-03-27T19:13:39
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.56s           2023-03-27T19:13:38
+/opt/airflow/dags/etl_newponto.py                               1           0  0.63s           2023-03-27T19:13:38
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.65s           2023-03-27T19:13:38
+================================================================================
+[2023-03-27 19:14:36,713] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.56s           2023-03-27T19:14:11
+/opt/airflow/dags/etl_deskmanager.py                            1           0  1.89s           2023-03-27T19:14:10
+/opt/airflow/dags/etl_newponto.py                               1           0  1.99s           2023-03-27T19:14:11
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.69s           2023-03-27T19:14:11
+================================================================================
+[2023-03-27 19:15:07,070] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.53s           2023-03-27T19:14:42
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.54s           2023-03-27T19:14:41
+/opt/airflow/dags/etl_newponto.py                               1           0  0.61s           2023-03-27T19:14:41
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.73s           2023-03-27T19:14:42
+================================================================================
+[2023-03-27 19:15:37,377] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.52s           2023-03-27T19:15:13
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.69s           2023-03-27T19:15:12
+/opt/airflow/dags/etl_newponto.py                               1           0  0.69s           2023-03-27T19:15:12
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.68s           2023-03-27T19:15:12
+================================================================================
+[2023-03-27 19:16:07,675] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.49s           2023-03-27T19:15:44
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.64s           2023-03-27T19:15:43
+/opt/airflow/dags/etl_newponto.py                               1           0  0.61s           2023-03-27T19:15:43
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.58s           2023-03-27T19:15:43
+================================================================================
+[2023-03-27 19:16:38,097] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.60s           2023-03-27T19:16:15
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.64s           2023-03-27T19:16:13
+/opt/airflow/dags/etl_newponto.py                               1           0  0.73s           2023-03-27T19:16:14
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.76s           2023-03-27T19:16:14
+================================================================================
+[2023-03-27 19:17:08,408] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.53s           2023-03-27T19:16:45
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.59s           2023-03-27T19:16:44
+/opt/airflow/dags/etl_newponto.py                               1           0  0.63s           2023-03-27T19:16:45
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.63s           2023-03-27T19:16:45
+================================================================================
+[2023-03-27 19:17:38,703] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.59s           2023-03-27T19:17:16
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.68s           2023-03-27T19:17:15
+/opt/airflow/dags/etl_newponto.py                               1           0  0.63s           2023-03-27T19:17:16
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.65s           2023-03-27T19:17:16
+================================================================================
+[2023-03-27 19:18:09,032] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.50s           2023-03-27T19:17:47
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.59s           2023-03-27T19:17:46
+/opt/airflow/dags/etl_newponto.py                               1           0  0.60s           2023-03-27T19:17:46
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.63s           2023-03-27T19:17:46
+================================================================================
+[2023-03-27 19:18:39,273] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.51s           2023-03-27T19:18:18
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.64s           2023-03-27T19:18:17
+/opt/airflow/dags/etl_newponto.py                               1           0  0.64s           2023-03-27T19:18:17
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.63s           2023-03-27T19:18:17
+================================================================================
+[2023-03-27 19:19:05,483] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 19:19:05,486] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 19:19:09,513] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.47s           2023-03-27T19:18:48
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.52s           2023-03-27T19:18:47
+/opt/airflow/dags/etl_newponto.py                               1           0  0.60s           2023-03-27T19:18:48
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.57s           2023-03-27T19:18:48
+================================================================================
+[2023-03-27 19:19:39,734] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.52s           2023-03-27T19:19:19
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.56s           2023-03-27T19:19:18
+/opt/airflow/dags/etl_newponto.py                               1           0  0.73s           2023-03-27T19:19:19
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.61s           2023-03-27T19:19:19
+================================================================================
+[2023-03-27 19:20:10,115] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.57s           2023-03-27T19:19:50
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.64s           2023-03-27T19:19:49
+/opt/airflow/dags/etl_newponto.py                               1           0  0.59s           2023-03-27T19:19:49
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.60s           2023-03-27T19:19:50
+================================================================================
+[2023-03-27 19:20:40,482] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.51s           2023-03-27T19:20:21
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.61s           2023-03-27T19:20:20
+/opt/airflow/dags/etl_newponto.py                               1           0  0.77s           2023-03-27T19:20:20
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.71s           2023-03-27T19:20:20
+================================================================================
+[2023-03-27 19:21:10,654] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.62s           2023-03-27T19:20:52
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.83s           2023-03-27T19:20:51
+/opt/airflow/dags/etl_newponto.py                               1           0  0.94s           2023-03-27T19:20:51
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.94s           2023-03-27T19:20:52
+================================================================================
+[2023-03-27 19:21:41,303] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.72s           2023-03-27T19:21:24
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.60s           2023-03-27T19:21:21
+/opt/airflow/dags/etl_newponto.py                               1           0  0.77s           2023-03-27T19:21:23
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.80s           2023-03-27T19:21:23
+================================================================================
+[2023-03-27 19:22:11,347] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.46s           2023-03-27T19:21:54
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.57s           2023-03-27T19:21:52
+/opt/airflow/dags/etl_newponto.py                               1           0  0.61s           2023-03-27T19:21:54
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.57s           2023-03-27T19:21:54
+================================================================================
+[2023-03-27 19:22:41,521] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.57s           2023-03-27T19:22:26
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.58s           2023-03-27T19:22:23
+/opt/airflow/dags/etl_newponto.py                               1           0  0.62s           2023-03-27T19:22:25
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.64s           2023-03-27T19:22:25
+================================================================================
+[2023-03-27 19:23:11,782] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.55s           2023-03-27T19:22:56
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.54s           2023-03-27T19:22:54
+/opt/airflow/dags/etl_newponto.py                               1           0  0.60s           2023-03-27T19:22:56
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.62s           2023-03-27T19:22:56
+================================================================================
+[2023-03-27 19:23:42,090] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.51s           2023-03-27T19:23:27
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.66s           2023-03-27T19:23:25
+/opt/airflow/dags/etl_newponto.py                               1           0  0.66s           2023-03-27T19:23:26
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.70s           2023-03-27T19:23:27
+================================================================================
+[2023-03-27 19:24:05,772] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 19:24:05,776] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 19:24:12,269] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.52s           2023-03-27T19:23:58
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.53s           2023-03-27T19:23:56
+/opt/airflow/dags/etl_newponto.py                               1           0  0.59s           2023-03-27T19:23:57
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.61s           2023-03-27T19:23:57
+================================================================================
+[2023-03-27 19:24:42,608] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.50s           2023-03-27T19:24:29
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.62s           2023-03-27T19:24:26
+/opt/airflow/dags/etl_newponto.py                               1           0  0.61s           2023-03-27T19:24:28
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.62s           2023-03-27T19:24:28
+================================================================================
+[2023-03-27 19:25:12,958] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.56s           2023-03-27T19:24:59
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.53s           2023-03-27T19:24:57
+/opt/airflow/dags/etl_newponto.py                               1           0  0.69s           2023-03-27T19:24:59
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.72s           2023-03-27T19:24:59
+================================================================================
+[2023-03-27 19:25:43,391] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.54s           2023-03-27T19:25:30
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.56s           2023-03-27T19:25:28
+/opt/airflow/dags/etl_newponto.py                               1           0  0.56s           2023-03-27T19:25:30
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.60s           2023-03-27T19:25:30
+================================================================================
+[2023-03-27 19:26:13,527] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.78s           2023-03-27T19:26:02
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.73s           2023-03-27T19:25:59
+/opt/airflow/dags/etl_newponto.py                               1           0  0.99s           2023-03-27T19:26:01
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.96s           2023-03-27T19:26:01
+================================================================================
+[2023-03-27 19:26:43,778] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.52s           2023-03-27T19:26:33
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.62s           2023-03-27T19:26:30
+/opt/airflow/dags/etl_newponto.py                               1           0  0.63s           2023-03-27T19:26:32
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.62s           2023-03-27T19:26:32
+================================================================================
+[2023-03-27 19:27:14,119] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.52s           2023-03-27T19:27:05
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.55s           2023-03-27T19:27:01
+/opt/airflow/dags/etl_newponto.py                               1           0  0.71s           2023-03-27T19:27:03
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.73s           2023-03-27T19:27:03
+================================================================================
+[2023-03-27 19:27:44,528] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.56s           2023-03-27T19:27:36
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.74s           2023-03-27T19:27:32
+/opt/airflow/dags/etl_newponto.py                               1           0  0.75s           2023-03-27T19:27:34
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.79s           2023-03-27T19:27:34
+================================================================================
+[2023-03-27 19:28:14,880] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.55s           2023-03-27T19:28:06
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.75s           2023-03-27T19:28:03
+/opt/airflow/dags/etl_newponto.py                               1           0  0.70s           2023-03-27T19:28:05
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.65s           2023-03-27T19:28:05
+================================================================================
+[2023-03-27 19:28:45,311] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.55s           2023-03-27T19:28:37
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.63s           2023-03-27T19:28:34
+/opt/airflow/dags/etl_newponto.py                               1           0  0.67s           2023-03-27T19:28:36
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.68s           2023-03-27T19:28:36
+================================================================================
+[2023-03-27 19:29:06,390] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 19:29:06,392] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 19:29:15,627] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.55s           2023-03-27T19:29:09
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.61s           2023-03-27T19:29:05
+/opt/airflow/dags/etl_newponto.py                               1           0  0.72s           2023-03-27T19:29:07
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.70s           2023-03-27T19:29:07
+================================================================================
+[2023-03-27 19:29:45,939] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.51s           2023-03-27T19:29:39
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.60s           2023-03-27T19:29:36
+/opt/airflow/dags/etl_newponto.py                               1           0  1.17s           2023-03-27T19:29:38
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  1.20s           2023-03-27T19:29:38
+================================================================================
+[2023-03-27 19:30:16,051] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.63s           2023-03-27T19:30:10
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.59s           2023-03-27T19:30:07
+/opt/airflow/dags/etl_newponto.py                               1           0  0.92s           2023-03-27T19:30:09
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  1.01s           2023-03-27T19:30:10
+================================================================================
+[2023-03-27 19:30:46,095] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.60s           2023-03-27T19:30:41
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.63s           2023-03-27T19:30:38
+/opt/airflow/dags/etl_newponto.py                               1           0  0.85s           2023-03-27T19:30:41
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.77s           2023-03-27T19:30:40
+================================================================================
+[2023-03-27 19:31:16,101] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.64s           2023-03-27T19:31:12
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.67s           2023-03-27T19:31:08
+/opt/airflow/dags/etl_newponto.py                               1           0  0.72s           2023-03-27T19:31:12
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.70s           2023-03-27T19:31:11
+================================================================================
+[2023-03-27 19:31:46,134] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.62s           2023-03-27T19:31:43
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.61s           2023-03-27T19:31:39
+/opt/airflow/dags/etl_newponto.py                               1           0  0.70s           2023-03-27T19:31:43
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.68s           2023-03-27T19:31:42
+================================================================================
+[2023-03-27 19:32:16,190] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.63s           2023-03-27T19:32:14
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.59s           2023-03-27T19:32:10
+/opt/airflow/dags/etl_newponto.py                               1           0  0.74s           2023-03-27T19:32:14
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.60s           2023-03-27T19:32:13
+================================================================================
+[2023-03-27 19:32:46,574] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.65s           2023-03-27T19:32:45
+/opt/airflow/dags/etl_deskmanager.py                            1           0  1.07s           2023-03-27T19:32:42
+/opt/airflow/dags/etl_newponto.py                               1           0  0.68s           2023-03-27T19:32:44
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.63s           2023-03-27T19:32:44
+================================================================================
+[2023-03-27 19:33:16,822] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.53s           2023-03-27T19:33:16
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.63s           2023-03-27T19:33:13
+/opt/airflow/dags/etl_newponto.py                               1           0  0.67s           2023-03-27T19:33:15
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.63s           2023-03-27T19:33:15
+================================================================================
+[2023-03-27 19:33:47,108] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.50s           2023-03-27T19:33:47
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.64s           2023-03-27T19:33:44
+/opt/airflow/dags/etl_newponto.py                               1           0  0.65s           2023-03-27T19:33:46
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.63s           2023-03-27T19:33:46
+================================================================================
+[2023-03-27 19:34:06,718] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 19:34:06,722] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 19:34:17,392] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py    3530  0.01s             0           0  0.50s           2023-03-27T19:33:47
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.65s           2023-03-27T19:34:14
+/opt/airflow/dags/etl_newponto.py                               1           0  0.59s           2023-03-27T19:34:17
+/opt/airflow/dags/etl_elastic_desk.py   3523  0.59s             1           0  0.63s           2023-03-27T19:33:46
+================================================================================
+[2023-03-27 19:34:47,559] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.53s           2023-03-27T19:34:17
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.61s           2023-03-27T19:34:45
+/opt/airflow/dags/etl_newponto.py       3544  0.01s             1           0  0.59s           2023-03-27T19:34:17
+/opt/airflow/dags/etl_elastic_desk.py   3547  0.01s             1           0  0.62s           2023-03-27T19:34:17
+================================================================================
+[2023-03-27 19:35:17,722] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.51s           2023-03-27T19:34:48
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.56s           2023-03-27T19:35:16
+/opt/airflow/dags/etl_newponto.py                               1           0  0.63s           2023-03-27T19:34:48
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.58s           2023-03-27T19:34:48
+================================================================================
+[2023-03-27 19:35:48,059] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.51s           2023-03-27T19:35:19
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.54s           2023-03-27T19:35:47
+/opt/airflow/dags/etl_newponto.py                               1           0  0.66s           2023-03-27T19:35:18
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.64s           2023-03-27T19:35:18
+================================================================================
+[2023-03-27 19:36:18,734] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.52s           2023-03-27T19:35:50
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.57s           2023-03-27T19:36:17
+/opt/airflow/dags/etl_newponto.py                               1           0  0.59s           2023-03-27T19:35:49
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.53s           2023-03-27T19:35:49
+================================================================================
+[2023-03-27 19:36:49,489] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.48s           2023-03-27T19:36:20
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.72s           2023-03-27T19:36:48
+/opt/airflow/dags/etl_newponto.py                               1           0  0.66s           2023-03-27T19:36:20
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.62s           2023-03-27T19:36:20
+================================================================================
+[2023-03-27 19:37:20,165] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.53s           2023-03-27T19:36:51
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.57s           2023-03-27T19:37:19
+/opt/airflow/dags/etl_newponto.py                               1           0  0.59s           2023-03-27T19:36:51
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.59s           2023-03-27T19:36:51
+================================================================================
+[2023-03-27 19:37:50,495] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.49s           2023-03-27T19:37:22
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.54s           2023-03-27T19:37:50
+/opt/airflow/dags/etl_newponto.py                               1           0  0.74s           2023-03-27T19:37:21
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.73s           2023-03-27T19:37:21
+================================================================================
+[2023-03-27 19:38:20,831] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.49s           2023-03-27T19:37:53
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.63s           2023-03-27T19:38:20
+/opt/airflow/dags/etl_newponto.py                               1           0  0.59s           2023-03-27T19:37:52
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.60s           2023-03-27T19:37:52
+================================================================================
+[2023-03-27 19:38:51,097] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.61s           2023-03-27T19:38:24
+/opt/airflow/dags/etl_deskmanager.py    3760  0.01s             1           0  0.63s           2023-03-27T19:38:20
+/opt/airflow/dags/etl_newponto.py                               1           0  0.59s           2023-03-27T19:38:23
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.57s           2023-03-27T19:38:23
+================================================================================
+[2023-03-27 19:39:07,140] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 19:39:07,142] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 19:39:21,888] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.50s           2023-03-27T19:38:54
+/opt/airflow/dags/etl_deskmanager.py    3784  0.01s             1           0  0.61s           2023-03-27T19:38:51
+/opt/airflow/dags/etl_newponto.py                               1           0  0.60s           2023-03-27T19:38:54
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.60s           2023-03-27T19:38:54
+================================================================================
+[2023-03-27 19:39:52,161] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.54s           2023-03-27T19:39:25
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.55s           2023-03-27T19:39:22
+/opt/airflow/dags/etl_newponto.py                               1           0  0.63s           2023-03-27T19:39:25
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.63s           2023-03-27T19:39:25
+================================================================================
+[2023-03-27 19:40:22,469] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.57s           2023-03-27T19:39:56
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.65s           2023-03-27T19:39:53
+/opt/airflow/dags/etl_newponto.py                               1           0  0.64s           2023-03-27T19:39:55
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.69s           2023-03-27T19:39:55
+================================================================================
+[2023-03-27 19:40:52,806] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.55s           2023-03-27T19:40:27
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.60s           2023-03-27T19:40:24
+/opt/airflow/dags/etl_newponto.py                               1           0  0.72s           2023-03-27T19:40:26
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.69s           2023-03-27T19:40:26
+================================================================================
+[2023-03-27 19:41:23,076] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.49s           2023-03-27T19:40:57
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.57s           2023-03-27T19:40:54
+/opt/airflow/dags/etl_newponto.py                               1           0  0.64s           2023-03-27T19:40:57
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.62s           2023-03-27T19:40:57
+================================================================================
+[2023-03-27 19:41:53,324] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.57s           2023-03-27T19:41:28
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.58s           2023-03-27T19:41:25
+/opt/airflow/dags/etl_newponto.py                               1           0  0.63s           2023-03-27T19:41:28
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.59s           2023-03-27T19:41:28
+================================================================================
+[2023-03-27 19:42:23,674] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.55s           2023-03-27T19:41:59
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.76s           2023-03-27T19:41:56
+/opt/airflow/dags/etl_newponto.py                               1           0  0.71s           2023-03-27T19:41:59
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.71s           2023-03-27T19:41:59
+================================================================================
+[2023-03-27 19:42:53,759] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.64s           2023-03-27T19:42:30
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.66s           2023-03-27T19:42:27
+/opt/airflow/dags/etl_newponto.py                               1           0  0.77s           2023-03-27T19:42:30
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.83s           2023-03-27T19:42:30
+================================================================================
+[2023-03-27 19:43:23,781] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.59s           2023-03-27T19:43:01
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.77s           2023-03-27T19:42:58
+/opt/airflow/dags/etl_newponto.py                               1           0  0.62s           2023-03-27T19:43:01
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.63s           2023-03-27T19:43:01
+================================================================================
+[2023-03-27 19:43:54,027] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.56s           2023-03-27T19:43:32
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.64s           2023-03-27T19:43:29
+/opt/airflow/dags/etl_newponto.py                               1           0  0.71s           2023-03-27T19:43:31
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.73s           2023-03-27T19:43:31
+================================================================================
+[2023-03-27 19:44:07,427] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-03-27 19:44:07,429] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2023-03-27 19:44:24,515] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.56s           2023-03-27T19:44:03
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.71s           2023-03-27T19:44:00
+/opt/airflow/dags/etl_newponto.py                               1           0  0.68s           2023-03-27T19:44:02
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.70s           2023-03-27T19:44:02
+================================================================================
+[2023-03-27 19:44:54,861] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.54s           2023-03-27T19:44:34
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.84s           2023-03-27T19:44:31
+/opt/airflow/dags/etl_newponto.py                               1           0  0.78s           2023-03-27T19:44:33
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.77s           2023-03-27T19:44:33
+================================================================================
+[2023-03-27 19:45:25,149] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.49s           2023-03-27T19:45:05
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.60s           2023-03-27T19:45:02
+/opt/airflow/dags/etl_newponto.py                               1           0  0.68s           2023-03-27T19:45:04
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.66s           2023-03-27T19:45:04
+================================================================================
+[2023-03-27 19:45:55,360] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.60s           2023-03-27T19:45:35
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.65s           2023-03-27T19:45:32
+/opt/airflow/dags/etl_newponto.py                               1           0  0.68s           2023-03-27T19:45:35
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.71s           2023-03-27T19:45:35
+================================================================================
+[2023-03-27 19:46:25,772] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.58s           2023-03-27T19:46:06
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.64s           2023-03-27T19:46:04
+/opt/airflow/dags/etl_newponto.py                               1           0  0.62s           2023-03-27T19:46:06
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.64s           2023-03-27T19:46:06
+================================================================================
+[2023-03-27 19:46:56,057] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.52s           2023-03-27T19:46:38
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.59s           2023-03-27T19:46:34
+/opt/airflow/dags/etl_newponto.py                               1           0  0.61s           2023-03-27T19:46:37
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.63s           2023-03-27T19:46:37
+================================================================================
+[2023-03-27 19:47:26,377] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.53s           2023-03-27T19:47:08
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.71s           2023-03-27T19:47:05
+/opt/airflow/dags/etl_newponto.py                               1           0  0.67s           2023-03-27T19:47:08
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.70s           2023-03-27T19:47:08
+================================================================================
+[2023-03-27 19:47:56,686] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/utils/callables.py                            0           0  0.55s           2023-03-27T19:47:39
+/opt/airflow/dags/etl_deskmanager.py                            1           0  0.64s           2023-03-27T19:47:36
+/opt/airflow/dags/etl_newponto.py                               1           0  0.66s           2023-03-27T19:47:39
+/opt/airflow/dags/etl_elastic_desk.py                           1           0  0.64s           2023-03-27T19:47:39
+================================================================================

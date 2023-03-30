@@ -1,0 +1,1569 @@
+[2023-03-27 18:12:16,605] {processor.py:153} INFO - Started process (PID=178) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:12:16,606] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:12:16,608] {logging_mixin.py:115} INFO - [2023-03-27 18:12:16,608] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:12:18,640] {logging_mixin.py:115} INFO - [2023-03-27 18:12:18,626] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:12:18,640] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:12:18,803] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 2.222 seconds
+[2023-03-27 18:12:49,424] {processor.py:153} INFO - Started process (PID=201) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:12:49,426] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:12:49,427] {logging_mixin.py:115} INFO - [2023-03-27 18:12:49,427] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:12:50,466] {logging_mixin.py:115} INFO - [2023-03-27 18:12:50,463] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:12:50,467] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:12:50,521] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 1.100 seconds
+[2023-03-27 18:13:21,326] {processor.py:153} INFO - Started process (PID=225) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:13:21,326] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:13:21,327] {logging_mixin.py:115} INFO - [2023-03-27 18:13:21,327] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:13:21,765] {logging_mixin.py:115} INFO - [2023-03-27 18:13:21,763] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:13:21,766] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:13:21,792] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.470 seconds
+[2023-03-27 18:13:51,975] {processor.py:153} INFO - Started process (PID=251) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:13:51,977] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:13:51,977] {logging_mixin.py:115} INFO - [2023-03-27 18:13:51,977] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:13:52,460] {logging_mixin.py:115} INFO - [2023-03-27 18:13:52,458] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:13:52,460] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:13:52,498] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.525 seconds
+[2023-03-27 18:14:22,744] {processor.py:153} INFO - Started process (PID=275) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:14:22,744] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:14:22,745] {logging_mixin.py:115} INFO - [2023-03-27 18:14:22,745] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:14:23,213] {logging_mixin.py:115} INFO - [2023-03-27 18:14:23,212] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:14:23,213] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:14:23,232] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.492 seconds
+[2023-03-27 18:14:53,313] {processor.py:153} INFO - Started process (PID=297) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:14:53,314] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:14:53,314] {logging_mixin.py:115} INFO - [2023-03-27 18:14:53,314] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:14:53,799] {logging_mixin.py:115} INFO - [2023-03-27 18:14:53,797] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:14:53,800] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:14:53,829] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.522 seconds
+[2023-03-27 18:15:23,892] {processor.py:153} INFO - Started process (PID=322) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:15:23,893] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:15:23,894] {logging_mixin.py:115} INFO - [2023-03-27 18:15:23,894] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:15:24,296] {logging_mixin.py:115} INFO - [2023-03-27 18:15:24,295] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:15:24,296] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:15:24,369] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.480 seconds
+[2023-03-27 18:15:54,932] {processor.py:153} INFO - Started process (PID=345) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:15:54,932] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:15:54,933] {logging_mixin.py:115} INFO - [2023-03-27 18:15:54,933] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:15:55,316] {logging_mixin.py:115} INFO - [2023-03-27 18:15:55,315] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:15:55,316] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:15:55,337] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.409 seconds
+[2023-03-27 18:17:08,197] {processor.py:153} INFO - Started process (PID=169) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:17:08,204] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:17:08,205] {logging_mixin.py:115} INFO - [2023-03-27 18:17:08,205] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:17:08,900] {logging_mixin.py:115} INFO - [2023-03-27 18:17:08,887] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:17:08,900] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:17:08,946] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.752 seconds
+[2023-03-27 18:17:39,535] {processor.py:153} INFO - Started process (PID=204) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:17:39,536] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:17:39,537] {logging_mixin.py:115} INFO - [2023-03-27 18:17:39,537] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:17:39,989] {logging_mixin.py:115} INFO - [2023-03-27 18:17:39,987] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:17:39,990] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:17:40,067] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.535 seconds
+[2023-03-27 18:18:10,813] {processor.py:153} INFO - Started process (PID=227) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:18:10,815] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:18:10,816] {logging_mixin.py:115} INFO - [2023-03-27 18:18:10,816] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:18:11,368] {logging_mixin.py:115} INFO - [2023-03-27 18:18:11,366] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:18:11,368] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:18:11,394] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.586 seconds
+[2023-03-27 18:18:42,028] {processor.py:153} INFO - Started process (PID=252) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:18:42,028] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:18:42,029] {logging_mixin.py:115} INFO - [2023-03-27 18:18:42,029] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:18:42,532] {logging_mixin.py:115} INFO - [2023-03-27 18:18:42,531] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:18:42,533] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:18:42,566] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.542 seconds
+[2023-03-27 18:19:13,033] {processor.py:153} INFO - Started process (PID=276) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:19:13,035] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:19:13,035] {logging_mixin.py:115} INFO - [2023-03-27 18:19:13,035] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:19:13,516] {logging_mixin.py:115} INFO - [2023-03-27 18:19:13,510] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:19:13,517] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:19:13,542] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.513 seconds
+[2023-03-27 18:19:44,279] {processor.py:153} INFO - Started process (PID=300) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:19:44,280] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:19:44,281] {logging_mixin.py:115} INFO - [2023-03-27 18:19:44,281] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:19:44,695] {logging_mixin.py:115} INFO - [2023-03-27 18:19:44,694] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:19:44,696] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:19:44,735] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.462 seconds
+[2023-03-27 18:20:15,352] {processor.py:153} INFO - Started process (PID=323) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:20:15,353] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:20:15,354] {logging_mixin.py:115} INFO - [2023-03-27 18:20:15,354] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:20:15,837] {logging_mixin.py:115} INFO - [2023-03-27 18:20:15,836] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:20:15,837] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:20:15,911] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.564 seconds
+[2023-03-27 18:20:46,625] {processor.py:153} INFO - Started process (PID=348) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:20:46,626] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:20:46,627] {logging_mixin.py:115} INFO - [2023-03-27 18:20:46,627] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:20:47,098] {logging_mixin.py:115} INFO - [2023-03-27 18:20:47,097] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:20:47,098] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:20:47,192] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.572 seconds
+[2023-03-27 18:21:17,412] {processor.py:153} INFO - Started process (PID=372) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:21:17,413] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:21:17,414] {logging_mixin.py:115} INFO - [2023-03-27 18:21:17,414] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:21:17,848] {logging_mixin.py:115} INFO - [2023-03-27 18:21:17,846] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:21:17,848] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:21:17,875] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.467 seconds
+[2023-03-27 18:21:48,594] {processor.py:153} INFO - Started process (PID=395) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:21:48,595] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:21:48,596] {logging_mixin.py:115} INFO - [2023-03-27 18:21:48,596] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:21:49,013] {logging_mixin.py:115} INFO - [2023-03-27 18:21:49,012] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:21:49,013] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:21:49,054] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.465 seconds
+[2023-03-27 18:22:19,407] {processor.py:153} INFO - Started process (PID=419) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:22:19,410] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:22:19,413] {logging_mixin.py:115} INFO - [2023-03-27 18:22:19,413] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:22:19,892] {logging_mixin.py:115} INFO - [2023-03-27 18:22:19,890] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:22:19,893] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:22:19,942] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.548 seconds
+[2023-03-27 18:22:50,922] {processor.py:153} INFO - Started process (PID=444) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:22:50,922] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:22:50,923] {logging_mixin.py:115} INFO - [2023-03-27 18:22:50,923] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:22:51,298] {logging_mixin.py:115} INFO - [2023-03-27 18:22:51,297] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:22:51,298] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:22:51,326] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.408 seconds
+[2023-03-27 18:23:22,160] {processor.py:153} INFO - Started process (PID=468) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:23:22,162] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:23:22,162] {logging_mixin.py:115} INFO - [2023-03-27 18:23:22,162] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:23:22,613] {logging_mixin.py:115} INFO - [2023-03-27 18:23:22,612] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:23:22,613] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:23:22,642] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.485 seconds
+[2023-03-27 18:23:53,438] {processor.py:153} INFO - Started process (PID=490) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:23:53,439] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:23:53,440] {logging_mixin.py:115} INFO - [2023-03-27 18:23:53,440] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:23:53,990] {logging_mixin.py:115} INFO - [2023-03-27 18:23:53,988] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:23:53,991] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:23:54,013] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.580 seconds
+[2023-03-27 18:24:24,862] {processor.py:153} INFO - Started process (PID=515) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:24:24,863] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:24:24,864] {logging_mixin.py:115} INFO - [2023-03-27 18:24:24,863] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:24:25,307] {logging_mixin.py:115} INFO - [2023-03-27 18:24:25,307] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:24:25,308] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:24:25,327] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.469 seconds
+[2023-03-27 18:24:55,531] {processor.py:153} INFO - Started process (PID=540) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:24:55,532] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:24:55,533] {logging_mixin.py:115} INFO - [2023-03-27 18:24:55,533] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:24:55,981] {logging_mixin.py:115} INFO - [2023-03-27 18:24:55,980] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:24:55,981] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:24:56,013] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.486 seconds
+[2023-03-27 18:25:26,912] {processor.py:153} INFO - Started process (PID=562) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:25:26,954] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:25:26,954] {logging_mixin.py:115} INFO - [2023-03-27 18:25:26,954] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:25:27,849] {logging_mixin.py:115} INFO - [2023-03-27 18:25:27,848] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:25:27,850] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:25:27,915] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 1.005 seconds
+[2023-03-27 18:25:58,355] {processor.py:153} INFO - Started process (PID=591) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:25:58,357] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:25:58,357] {logging_mixin.py:115} INFO - [2023-03-27 18:25:58,357] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:25:58,817] {logging_mixin.py:115} INFO - [2023-03-27 18:25:58,814] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:25:58,817] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:25:58,862] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.511 seconds
+[2023-03-27 18:26:29,035] {processor.py:153} INFO - Started process (PID=612) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:26:29,036] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:26:29,037] {logging_mixin.py:115} INFO - [2023-03-27 18:26:29,037] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:26:29,499] {logging_mixin.py:115} INFO - [2023-03-27 18:26:29,496] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:26:29,501] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:26:29,572] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.542 seconds
+[2023-03-27 18:27:00,203] {processor.py:153} INFO - Started process (PID=634) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:27:00,204] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:27:00,205] {logging_mixin.py:115} INFO - [2023-03-27 18:27:00,205] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:27:00,664] {logging_mixin.py:115} INFO - [2023-03-27 18:27:00,663] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:27:00,664] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:27:00,685] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.487 seconds
+[2023-03-27 18:27:31,315] {processor.py:153} INFO - Started process (PID=660) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:27:31,316] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:27:31,317] {logging_mixin.py:115} INFO - [2023-03-27 18:27:31,316] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:27:31,741] {logging_mixin.py:115} INFO - [2023-03-27 18:27:31,737] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:27:31,742] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:27:31,765] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.457 seconds
+[2023-03-27 18:28:02,039] {processor.py:153} INFO - Started process (PID=684) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:28:02,044] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:28:02,046] {logging_mixin.py:115} INFO - [2023-03-27 18:28:02,045] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:28:02,659] {logging_mixin.py:115} INFO - [2023-03-27 18:28:02,658] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:28:02,659] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:28:02,712] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.722 seconds
+[2023-03-27 18:28:32,901] {processor.py:153} INFO - Started process (PID=705) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:28:32,904] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:28:32,905] {logging_mixin.py:115} INFO - [2023-03-27 18:28:32,905] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:28:33,577] {logging_mixin.py:115} INFO - [2023-03-27 18:28:33,575] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/etl_newponto.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_newponto.py", line 16, in <module>
+    from utils.callables import ingest_newponto
+  File "/opt/airflow/dags/utils/callables.py", line 15, in <module>
+    from es_pandas import es_pandas
+ModuleNotFoundError: No module named 'es_pandas'
+[2023-03-27 18:28:33,577] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:28:33,611] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.717 seconds
+[2023-03-27 18:29:02,507] {processor.py:153} INFO - Started process (PID=176) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:29:02,509] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:29:02,510] {logging_mixin.py:115} INFO - [2023-03-27 18:29:02,510] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:29:03,388] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:29:03,585] {logging_mixin.py:115} INFO - [2023-03-27 18:29:03,585] {manager.py:508} INFO - Created Permission View: can edit on DAG:carga_newponto
+[2023-03-27 18:29:03,608] {logging_mixin.py:115} INFO - [2023-03-27 18:29:03,608] {manager.py:508} INFO - Created Permission View: can delete on DAG:carga_newponto
+[2023-03-27 18:29:03,626] {logging_mixin.py:115} INFO - [2023-03-27 18:29:03,626] {manager.py:508} INFO - Created Permission View: can read on DAG:carga_newponto
+[2023-03-27 18:29:03,626] {logging_mixin.py:115} INFO - [2023-03-27 18:29:03,626] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:29:03,638] {logging_mixin.py:115} INFO - [2023-03-27 18:29:03,638] {dag.py:2439} INFO - Creating ORM DAG for carga_newponto
+[2023-03-27 18:29:03,665] {logging_mixin.py:115} INFO - [2023-03-27 18:29:03,665] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:29:03,698] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 1.194 seconds
+[2023-03-27 18:29:34,134] {processor.py:153} INFO - Started process (PID=202) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:29:34,135] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:29:34,135] {logging_mixin.py:115} INFO - [2023-03-27 18:29:34,135] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:29:34,595] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:29:34,627] {logging_mixin.py:115} INFO - [2023-03-27 18:29:34,626] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:29:34,656] {logging_mixin.py:115} INFO - [2023-03-27 18:29:34,655] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:29:34,748] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.620 seconds
+[2023-03-27 18:30:05,353] {processor.py:153} INFO - Started process (PID=235) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:30:05,357] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:30:05,358] {logging_mixin.py:115} INFO - [2023-03-27 18:30:05,358] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:30:06,000] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:30:06,060] {logging_mixin.py:115} INFO - [2023-03-27 18:30:06,060] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:30:06,089] {logging_mixin.py:115} INFO - [2023-03-27 18:30:06,089] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:30:06,158] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.809 seconds
+[2023-03-27 18:30:36,327] {processor.py:153} INFO - Started process (PID=259) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:30:36,328] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:30:36,328] {logging_mixin.py:115} INFO - [2023-03-27 18:30:36,328] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:30:36,847] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:30:36,887] {logging_mixin.py:115} INFO - [2023-03-27 18:30:36,887] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:30:36,913] {logging_mixin.py:115} INFO - [2023-03-27 18:30:36,913] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:30:36,933] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.611 seconds
+[2023-03-27 18:31:07,082] {processor.py:153} INFO - Started process (PID=283) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:31:07,084] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:31:07,084] {logging_mixin.py:115} INFO - [2023-03-27 18:31:07,084] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:31:07,525] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:31:07,569] {logging_mixin.py:115} INFO - [2023-03-27 18:31:07,569] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:31:07,591] {logging_mixin.py:115} INFO - [2023-03-27 18:31:07,590] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:31:07,606] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.528 seconds
+[2023-03-27 18:31:38,151] {processor.py:153} INFO - Started process (PID=305) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:31:38,151] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:31:38,152] {logging_mixin.py:115} INFO - [2023-03-27 18:31:38,152] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:31:38,625] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:31:38,657] {logging_mixin.py:115} INFO - [2023-03-27 18:31:38,656] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:31:38,682] {logging_mixin.py:115} INFO - [2023-03-27 18:31:38,682] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:31:38,749] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.602 seconds
+[2023-03-27 18:32:08,966] {processor.py:153} INFO - Started process (PID=331) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:32:08,967] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:32:08,968] {logging_mixin.py:115} INFO - [2023-03-27 18:32:08,968] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:32:09,379] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:32:09,415] {logging_mixin.py:115} INFO - [2023-03-27 18:32:09,414] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:32:09,446] {logging_mixin.py:115} INFO - [2023-03-27 18:32:09,445] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:32:09,466] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.506 seconds
+[2023-03-27 18:32:39,605] {processor.py:153} INFO - Started process (PID=354) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:32:39,606] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:32:39,606] {logging_mixin.py:115} INFO - [2023-03-27 18:32:39,606] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:32:40,039] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:32:40,077] {logging_mixin.py:115} INFO - [2023-03-27 18:32:40,076] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:32:40,102] {logging_mixin.py:115} INFO - [2023-03-27 18:32:40,102] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:32:40,121] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.520 seconds
+[2023-03-27 18:33:10,291] {processor.py:153} INFO - Started process (PID=378) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:33:10,292] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:33:10,293] {logging_mixin.py:115} INFO - [2023-03-27 18:33:10,292] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:33:10,866] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:33:10,893] {logging_mixin.py:115} INFO - [2023-03-27 18:33:10,893] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:33:10,920] {logging_mixin.py:115} INFO - [2023-03-27 18:33:10,920] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:33:10,936] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.651 seconds
+[2023-03-27 18:33:41,512] {processor.py:153} INFO - Started process (PID=403) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:33:41,513] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:33:41,513] {logging_mixin.py:115} INFO - [2023-03-27 18:33:41,513] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:33:42,027] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:33:42,084] {logging_mixin.py:115} INFO - [2023-03-27 18:33:42,084] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:33:42,107] {logging_mixin.py:115} INFO - [2023-03-27 18:33:42,107] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:33:42,130] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.621 seconds
+[2023-03-27 18:34:12,771] {processor.py:153} INFO - Started process (PID=425) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:34:12,772] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:34:12,773] {logging_mixin.py:115} INFO - [2023-03-27 18:34:12,773] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:34:13,237] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:34:13,288] {logging_mixin.py:115} INFO - [2023-03-27 18:34:13,288] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:34:13,320] {logging_mixin.py:115} INFO - [2023-03-27 18:34:13,320] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:34:13,336] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.569 seconds
+[2023-03-27 18:34:43,440] {processor.py:153} INFO - Started process (PID=451) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:34:43,441] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:34:43,441] {logging_mixin.py:115} INFO - [2023-03-27 18:34:43,441] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:34:43,895] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:34:43,920] {logging_mixin.py:115} INFO - [2023-03-27 18:34:43,920] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:34:43,947] {logging_mixin.py:115} INFO - [2023-03-27 18:34:43,946] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:34:43,972] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.536 seconds
+[2023-03-27 18:35:14,135] {processor.py:153} INFO - Started process (PID=478) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:35:14,136] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:35:14,137] {logging_mixin.py:115} INFO - [2023-03-27 18:35:14,137] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:35:14,674] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:35:14,704] {logging_mixin.py:115} INFO - [2023-03-27 18:35:14,704] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:35:14,752] {logging_mixin.py:115} INFO - [2023-03-27 18:35:14,752] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:35:14,794] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.663 seconds
+[2023-03-27 18:35:44,933] {processor.py:153} INFO - Started process (PID=502) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:35:44,934] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:35:44,934] {logging_mixin.py:115} INFO - [2023-03-27 18:35:44,934] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:35:45,409] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:35:45,442] {logging_mixin.py:115} INFO - [2023-03-27 18:35:45,442] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:35:45,473] {logging_mixin.py:115} INFO - [2023-03-27 18:35:45,473] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:35:45,493] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.563 seconds
+[2023-03-27 18:36:15,634] {processor.py:153} INFO - Started process (PID=525) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:36:15,636] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:36:15,637] {logging_mixin.py:115} INFO - [2023-03-27 18:36:15,637] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:36:16,086] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:36:16,124] {logging_mixin.py:115} INFO - [2023-03-27 18:36:16,124] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:36:16,149] {logging_mixin.py:115} INFO - [2023-03-27 18:36:16,149] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:36:16,172] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.541 seconds
+[2023-03-27 18:36:46,308] {processor.py:153} INFO - Started process (PID=548) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:36:46,308] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:36:46,309] {logging_mixin.py:115} INFO - [2023-03-27 18:36:46,309] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:36:46,817] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:36:46,859] {logging_mixin.py:115} INFO - [2023-03-27 18:36:46,858] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:36:46,887] {logging_mixin.py:115} INFO - [2023-03-27 18:36:46,887] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:36:46,903] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.604 seconds
+[2023-03-27 18:37:17,117] {processor.py:153} INFO - Started process (PID=574) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:37:17,119] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:37:17,120] {logging_mixin.py:115} INFO - [2023-03-27 18:37:17,120] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:37:17,589] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:37:17,632] {logging_mixin.py:115} INFO - [2023-03-27 18:37:17,630] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:37:17,666] {logging_mixin.py:115} INFO - [2023-03-27 18:37:17,666] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:37:17,685] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.572 seconds
+[2023-03-27 18:37:47,893] {processor.py:153} INFO - Started process (PID=596) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:37:47,893] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:37:47,893] {logging_mixin.py:115} INFO - [2023-03-27 18:37:47,893] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:37:48,387] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:37:48,416] {logging_mixin.py:115} INFO - [2023-03-27 18:37:48,416] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:37:48,446] {logging_mixin.py:115} INFO - [2023-03-27 18:37:48,446] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:37:48,466] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.578 seconds
+[2023-03-27 18:38:18,670] {processor.py:153} INFO - Started process (PID=620) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:38:18,672] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:38:18,673] {logging_mixin.py:115} INFO - [2023-03-27 18:38:18,673] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:38:19,156] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:38:19,221] {logging_mixin.py:115} INFO - [2023-03-27 18:38:19,221] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:38:19,251] {logging_mixin.py:115} INFO - [2023-03-27 18:38:19,251] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:38:19,272] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.606 seconds
+[2023-03-27 18:38:49,492] {processor.py:153} INFO - Started process (PID=645) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:38:49,492] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:38:49,493] {logging_mixin.py:115} INFO - [2023-03-27 18:38:49,493] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:38:50,015] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:38:50,040] {logging_mixin.py:115} INFO - [2023-03-27 18:38:50,039] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:38:50,061] {logging_mixin.py:115} INFO - [2023-03-27 18:38:50,061] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:38:50,838] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 1.351 seconds
+[2023-03-27 18:39:21,108] {processor.py:153} INFO - Started process (PID=670) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:39:21,108] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:39:21,109] {logging_mixin.py:115} INFO - [2023-03-27 18:39:21,109] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:39:21,538] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:39:21,571] {logging_mixin.py:115} INFO - [2023-03-27 18:39:21,570] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:39:21,602] {logging_mixin.py:115} INFO - [2023-03-27 18:39:21,602] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:39:21,620] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.516 seconds
+[2023-03-27 18:39:51,936] {processor.py:153} INFO - Started process (PID=693) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:39:51,936] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:39:51,937] {logging_mixin.py:115} INFO - [2023-03-27 18:39:51,937] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:39:52,461] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:39:52,491] {logging_mixin.py:115} INFO - [2023-03-27 18:39:52,491] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:39:52,513] {logging_mixin.py:115} INFO - [2023-03-27 18:39:52,513] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:39:52,535] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.604 seconds
+[2023-03-27 18:40:23,568] {processor.py:153} INFO - Started process (PID=721) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:40:23,569] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:40:23,570] {logging_mixin.py:115} INFO - [2023-03-27 18:40:23,570] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:40:24,070] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:40:24,099] {logging_mixin.py:115} INFO - [2023-03-27 18:40:24,099] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:40:24,124] {logging_mixin.py:115} INFO - [2023-03-27 18:40:24,124] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:40:24,158] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.593 seconds
+[2023-03-27 18:40:54,853] {processor.py:153} INFO - Started process (PID=744) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:40:54,854] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:40:54,855] {logging_mixin.py:115} INFO - [2023-03-27 18:40:54,855] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:40:55,438] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:40:55,489] {logging_mixin.py:115} INFO - [2023-03-27 18:40:55,488] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:40:55,529] {logging_mixin.py:115} INFO - [2023-03-27 18:40:55,528] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:40:55,553] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.704 seconds
+[2023-03-27 18:41:26,409] {processor.py:153} INFO - Started process (PID=769) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:41:26,410] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:41:26,411] {logging_mixin.py:115} INFO - [2023-03-27 18:41:26,410] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:41:26,954] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:41:26,982] {logging_mixin.py:115} INFO - [2023-03-27 18:41:26,982] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:41:27,005] {logging_mixin.py:115} INFO - [2023-03-27 18:41:27,005] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:41:27,069] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.664 seconds
+[2023-03-27 18:41:57,834] {processor.py:153} INFO - Started process (PID=793) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:41:57,837] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:41:57,837] {logging_mixin.py:115} INFO - [2023-03-27 18:41:57,837] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:41:58,347] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:41:58,386] {logging_mixin.py:115} INFO - [2023-03-27 18:41:58,386] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:41:58,423] {logging_mixin.py:115} INFO - [2023-03-27 18:41:58,423] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:41:58,451] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.621 seconds
+[2023-03-27 18:42:28,722] {processor.py:153} INFO - Started process (PID=817) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:42:28,723] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:42:28,723] {logging_mixin.py:115} INFO - [2023-03-27 18:42:28,723] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:42:29,228] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:42:29,268] {logging_mixin.py:115} INFO - [2023-03-27 18:42:29,267] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:42:29,295] {logging_mixin.py:115} INFO - [2023-03-27 18:42:29,294] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:42:29,314] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.598 seconds
+[2023-03-27 18:42:59,468] {processor.py:153} INFO - Started process (PID=839) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:42:59,469] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:42:59,470] {logging_mixin.py:115} INFO - [2023-03-27 18:42:59,470] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:42:59,949] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:42:59,992] {logging_mixin.py:115} INFO - [2023-03-27 18:42:59,991] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:43:00,035] {logging_mixin.py:115} INFO - [2023-03-27 18:43:00,034] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:43:00,059] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.596 seconds
+[2023-03-27 18:43:30,351] {processor.py:153} INFO - Started process (PID=864) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:43:30,351] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:43:30,354] {logging_mixin.py:115} INFO - [2023-03-27 18:43:30,353] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:43:30,965] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:43:31,008] {logging_mixin.py:115} INFO - [2023-03-27 18:43:31,008] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:43:31,043] {logging_mixin.py:115} INFO - [2023-03-27 18:43:31,043] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:43:31,069] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.723 seconds
+[2023-03-27 18:44:01,314] {processor.py:153} INFO - Started process (PID=889) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:44:01,315] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:44:01,316] {logging_mixin.py:115} INFO - [2023-03-27 18:44:01,316] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:44:01,921] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:44:01,952] {logging_mixin.py:115} INFO - [2023-03-27 18:44:01,952] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:44:01,979] {logging_mixin.py:115} INFO - [2023-03-27 18:44:01,979] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:44:01,994] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.684 seconds
+[2023-03-27 18:44:32,675] {processor.py:153} INFO - Started process (PID=911) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:44:32,675] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:44:32,676] {logging_mixin.py:115} INFO - [2023-03-27 18:44:32,676] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:44:33,258] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:44:33,284] {logging_mixin.py:115} INFO - [2023-03-27 18:44:33,283] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:44:33,313] {logging_mixin.py:115} INFO - [2023-03-27 18:44:33,313] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:44:33,329] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.660 seconds
+[2023-03-27 18:45:04,118] {processor.py:153} INFO - Started process (PID=939) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:45:04,119] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:45:04,120] {logging_mixin.py:115} INFO - [2023-03-27 18:45:04,120] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:45:04,836] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:45:04,919] {logging_mixin.py:115} INFO - [2023-03-27 18:45:04,919] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:45:04,961] {logging_mixin.py:115} INFO - [2023-03-27 18:45:04,961] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:45:05,025] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.911 seconds
+[2023-03-27 18:45:35,836] {processor.py:153} INFO - Started process (PID=990) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:45:35,837] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:45:35,837] {logging_mixin.py:115} INFO - [2023-03-27 18:45:35,837] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:45:36,344] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:45:36,397] {logging_mixin.py:115} INFO - [2023-03-27 18:45:36,397] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:45:36,424] {logging_mixin.py:115} INFO - [2023-03-27 18:45:36,424] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:45:36,457] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.625 seconds
+[2023-03-27 18:46:07,237] {processor.py:153} INFO - Started process (PID=1015) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:46:07,240] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:46:07,241] {logging_mixin.py:115} INFO - [2023-03-27 18:46:07,241] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:46:07,769] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:46:07,802] {logging_mixin.py:115} INFO - [2023-03-27 18:46:07,802] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:46:07,835] {logging_mixin.py:115} INFO - [2023-03-27 18:46:07,835] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:46:07,853] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.626 seconds
+[2023-03-27 18:46:38,607] {processor.py:153} INFO - Started process (PID=1039) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:46:38,607] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:46:38,608] {logging_mixin.py:115} INFO - [2023-03-27 18:46:38,608] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:46:39,167] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:46:39,204] {logging_mixin.py:115} INFO - [2023-03-27 18:46:39,204] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:46:39,265] {logging_mixin.py:115} INFO - [2023-03-27 18:46:39,265] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:46:39,283] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.681 seconds
+[2023-03-27 18:47:09,985] {processor.py:153} INFO - Started process (PID=1066) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:47:09,986] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:47:09,987] {logging_mixin.py:115} INFO - [2023-03-27 18:47:09,987] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:47:10,580] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:47:10,615] {logging_mixin.py:115} INFO - [2023-03-27 18:47:10,614] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:47:10,644] {logging_mixin.py:115} INFO - [2023-03-27 18:47:10,643] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:47:10,672] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.691 seconds
+[2023-03-27 18:47:40,795] {processor.py:153} INFO - Started process (PID=1088) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:47:40,796] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:47:40,797] {logging_mixin.py:115} INFO - [2023-03-27 18:47:40,796] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:47:41,278] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:47:41,311] {logging_mixin.py:115} INFO - [2023-03-27 18:47:41,310] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:47:41,349] {logging_mixin.py:115} INFO - [2023-03-27 18:47:41,348] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:47:41,366] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.576 seconds
+[2023-03-27 18:48:11,761] {processor.py:153} INFO - Started process (PID=1114) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:48:11,762] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:48:11,763] {logging_mixin.py:115} INFO - [2023-03-27 18:48:11,763] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:48:12,240] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:48:12,322] {logging_mixin.py:115} INFO - [2023-03-27 18:48:12,321] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:48:12,353] {logging_mixin.py:115} INFO - [2023-03-27 18:48:12,353] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:48:12,373] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.616 seconds
+[2023-03-27 18:48:42,522] {processor.py:153} INFO - Started process (PID=1138) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:48:42,523] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:48:42,523] {logging_mixin.py:115} INFO - [2023-03-27 18:48:42,523] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:48:42,994] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:48:43,031] {logging_mixin.py:115} INFO - [2023-03-27 18:48:43,031] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:48:43,059] {logging_mixin.py:115} INFO - [2023-03-27 18:48:43,059] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:48:43,080] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.563 seconds
+[2023-03-27 18:49:13,606] {processor.py:153} INFO - Started process (PID=1162) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:49:13,607] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:49:13,608] {logging_mixin.py:115} INFO - [2023-03-27 18:49:13,608] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:49:14,131] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:49:14,165] {logging_mixin.py:115} INFO - [2023-03-27 18:49:14,165] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:49:14,193] {logging_mixin.py:115} INFO - [2023-03-27 18:49:14,193] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:49:14,215] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.616 seconds
+[2023-03-27 18:49:44,431] {processor.py:153} INFO - Started process (PID=1186) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:49:44,432] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:49:44,433] {logging_mixin.py:115} INFO - [2023-03-27 18:49:44,432] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:49:45,002] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:49:45,034] {logging_mixin.py:115} INFO - [2023-03-27 18:49:45,033] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:49:45,059] {logging_mixin.py:115} INFO - [2023-03-27 18:49:45,058] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:49:45,079] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.651 seconds
+[2023-03-27 18:50:15,502] {processor.py:153} INFO - Started process (PID=1225) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:50:15,504] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:50:15,505] {logging_mixin.py:115} INFO - [2023-03-27 18:50:15,505] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:50:16,052] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:50:16,097] {logging_mixin.py:115} INFO - [2023-03-27 18:50:16,096] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:50:16,125] {logging_mixin.py:115} INFO - [2023-03-27 18:50:16,125] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:50:16,139] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.641 seconds
+[2023-03-27 18:50:46,714] {processor.py:153} INFO - Started process (PID=1264) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:50:46,715] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:50:46,716] {logging_mixin.py:115} INFO - [2023-03-27 18:50:46,716] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:50:47,161] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:50:47,228] {logging_mixin.py:115} INFO - [2023-03-27 18:50:47,227] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:50:47,276] {logging_mixin.py:115} INFO - [2023-03-27 18:50:47,275] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:50:47,314] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.603 seconds
+[2023-03-27 18:51:18,003] {processor.py:153} INFO - Started process (PID=1288) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:51:18,005] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:51:18,006] {logging_mixin.py:115} INFO - [2023-03-27 18:51:18,006] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:51:18,575] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:51:18,609] {logging_mixin.py:115} INFO - [2023-03-27 18:51:18,609] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:51:18,638] {logging_mixin.py:115} INFO - [2023-03-27 18:51:18,638] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:51:18,675] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.677 seconds
+[2023-03-27 18:51:48,977] {processor.py:153} INFO - Started process (PID=1310) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:51:48,978] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:51:48,979] {logging_mixin.py:115} INFO - [2023-03-27 18:51:48,978] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:51:49,543] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:51:49,597] {logging_mixin.py:115} INFO - [2023-03-27 18:51:49,597] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:51:49,625] {logging_mixin.py:115} INFO - [2023-03-27 18:51:49,625] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:51:49,641] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.678 seconds
+[2023-03-27 18:52:19,914] {processor.py:153} INFO - Started process (PID=1336) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:52:19,914] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:52:19,915] {logging_mixin.py:115} INFO - [2023-03-27 18:52:19,915] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:52:20,508] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:52:20,541] {logging_mixin.py:115} INFO - [2023-03-27 18:52:20,541] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:52:20,572] {logging_mixin.py:115} INFO - [2023-03-27 18:52:20,572] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:52:20,594] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.686 seconds
+[2023-03-27 18:52:50,692] {processor.py:153} INFO - Started process (PID=1360) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:52:50,693] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:52:50,694] {logging_mixin.py:115} INFO - [2023-03-27 18:52:50,694] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:52:51,168] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:52:51,210] {logging_mixin.py:115} INFO - [2023-03-27 18:52:51,209] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:52:51,234] {logging_mixin.py:115} INFO - [2023-03-27 18:52:51,234] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:52:51,262] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.576 seconds
+[2023-03-27 18:53:21,458] {processor.py:153} INFO - Started process (PID=1382) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:53:21,459] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:53:21,460] {logging_mixin.py:115} INFO - [2023-03-27 18:53:21,459] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:53:22,117] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:53:22,198] {logging_mixin.py:115} INFO - [2023-03-27 18:53:22,197] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:53:22,252] {logging_mixin.py:115} INFO - [2023-03-27 18:53:22,251] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:53:22,273] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.821 seconds
+[2023-03-27 18:53:52,724] {processor.py:153} INFO - Started process (PID=1405) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:53:52,725] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:53:52,726] {logging_mixin.py:115} INFO - [2023-03-27 18:53:52,726] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:53:53,192] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:53:53,228] {logging_mixin.py:115} INFO - [2023-03-27 18:53:53,228] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:53:53,256] {logging_mixin.py:115} INFO - [2023-03-27 18:53:53,255] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:53:53,281] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.562 seconds
+[2023-03-27 18:54:23,654] {processor.py:153} INFO - Started process (PID=1427) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:54:23,656] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:54:23,657] {logging_mixin.py:115} INFO - [2023-03-27 18:54:23,657] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:54:24,198] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:54:24,224] {logging_mixin.py:115} INFO - [2023-03-27 18:54:24,224] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:54:24,256] {logging_mixin.py:115} INFO - [2023-03-27 18:54:24,256] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:54:24,288] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.640 seconds
+[2023-03-27 18:54:55,060] {processor.py:153} INFO - Started process (PID=1451) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:54:55,060] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:54:55,061] {logging_mixin.py:115} INFO - [2023-03-27 18:54:55,061] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:54:55,621] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:54:55,662] {logging_mixin.py:115} INFO - [2023-03-27 18:54:55,661] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:54:55,700] {logging_mixin.py:115} INFO - [2023-03-27 18:54:55,700] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:54:55,722] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.668 seconds
+[2023-03-27 18:55:26,682] {processor.py:153} INFO - Started process (PID=1507) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:55:26,687] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:55:26,689] {logging_mixin.py:115} INFO - [2023-03-27 18:55:26,688] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:55:27,203] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:55:27,237] {logging_mixin.py:115} INFO - [2023-03-27 18:55:27,236] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:55:27,264] {logging_mixin.py:115} INFO - [2023-03-27 18:55:27,264] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:55:27,282] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.607 seconds
+[2023-03-27 18:55:58,134] {processor.py:153} INFO - Started process (PID=1529) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:55:58,135] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:55:58,135] {logging_mixin.py:115} INFO - [2023-03-27 18:55:58,135] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:55:58,681] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:55:58,707] {logging_mixin.py:115} INFO - [2023-03-27 18:55:58,707] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:55:58,730] {logging_mixin.py:115} INFO - [2023-03-27 18:55:58,730] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:55:58,744] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.614 seconds
+[2023-03-27 18:56:29,462] {processor.py:153} INFO - Started process (PID=1553) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:56:29,464] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:56:29,465] {logging_mixin.py:115} INFO - [2023-03-27 18:56:29,465] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:56:29,997] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:56:30,033] {logging_mixin.py:115} INFO - [2023-03-27 18:56:30,033] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:56:30,060] {logging_mixin.py:115} INFO - [2023-03-27 18:56:30,060] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:56:30,081] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.623 seconds
+[2023-03-27 18:57:01,027] {processor.py:153} INFO - Started process (PID=1579) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:57:01,027] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:57:01,028] {logging_mixin.py:115} INFO - [2023-03-27 18:57:01,028] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:57:01,591] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:57:01,637] {logging_mixin.py:115} INFO - [2023-03-27 18:57:01,636] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:57:01,690] {logging_mixin.py:115} INFO - [2023-03-27 18:57:01,690] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:57:01,718] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.696 seconds
+[2023-03-27 18:57:31,818] {processor.py:153} INFO - Started process (PID=1600) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:57:31,819] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:57:31,820] {logging_mixin.py:115} INFO - [2023-03-27 18:57:31,820] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:57:34,084] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:57:34,236] {logging_mixin.py:115} INFO - [2023-03-27 18:57:34,232] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:57:34,293] {logging_mixin.py:115} INFO - [2023-03-27 18:57:34,293] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:57:34,357] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 2.546 seconds
+[2023-03-27 18:58:04,665] {processor.py:153} INFO - Started process (PID=1627) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:58:04,666] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:58:04,667] {logging_mixin.py:115} INFO - [2023-03-27 18:58:04,667] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:58:05,137] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:58:05,191] {logging_mixin.py:115} INFO - [2023-03-27 18:58:05,190] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:58:05,219] {logging_mixin.py:115} INFO - [2023-03-27 18:58:05,219] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:58:05,240] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.581 seconds
+[2023-03-27 18:58:36,017] {processor.py:153} INFO - Started process (PID=1650) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:58:36,018] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:58:36,019] {logging_mixin.py:115} INFO - [2023-03-27 18:58:36,019] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:58:36,618] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:58:36,664] {logging_mixin.py:115} INFO - [2023-03-27 18:58:36,662] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:58:36,723] {logging_mixin.py:115} INFO - [2023-03-27 18:58:36,723] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:58:36,774] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.762 seconds
+[2023-03-27 18:59:07,516] {processor.py:153} INFO - Started process (PID=1674) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:59:07,517] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:59:07,518] {logging_mixin.py:115} INFO - [2023-03-27 18:59:07,517] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:59:08,173] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:59:08,214] {logging_mixin.py:115} INFO - [2023-03-27 18:59:08,213] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:59:08,250] {logging_mixin.py:115} INFO - [2023-03-27 18:59:08,250] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:59:08,266] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.754 seconds
+[2023-03-27 18:59:39,113] {processor.py:153} INFO - Started process (PID=1697) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:59:39,117] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 18:59:39,118] {logging_mixin.py:115} INFO - [2023-03-27 18:59:39,118] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:59:39,704] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 18:59:39,736] {logging_mixin.py:115} INFO - [2023-03-27 18:59:39,735] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 18:59:39,766] {logging_mixin.py:115} INFO - [2023-03-27 18:59:39,766] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 18:59:39,787] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.679 seconds
+[2023-03-27 19:00:10,653] {processor.py:153} INFO - Started process (PID=1737) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:00:10,653] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:00:10,655] {logging_mixin.py:115} INFO - [2023-03-27 19:00:10,654] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:00:11,637] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:00:11,687] {logging_mixin.py:115} INFO - [2023-03-27 19:00:11,686] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:00:11,747] {logging_mixin.py:115} INFO - [2023-03-27 19:00:11,746] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:00:11,769] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 1.123 seconds
+[2023-03-27 19:00:42,765] {processor.py:153} INFO - Started process (PID=1778) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:00:43,322] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:00:43,322] {logging_mixin.py:115} INFO - [2023-03-27 19:00:43,322] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:00:44,098] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:00:44,134] {logging_mixin.py:115} INFO - [2023-03-27 19:00:44,133] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:00:44,172] {logging_mixin.py:115} INFO - [2023-03-27 19:00:44,171] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:00:44,194] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 1.436 seconds
+[2023-03-27 19:01:14,571] {processor.py:153} INFO - Started process (PID=1802) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:01:14,572] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:01:14,573] {logging_mixin.py:115} INFO - [2023-03-27 19:01:14,573] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:01:15,106] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:01:15,184] {logging_mixin.py:115} INFO - [2023-03-27 19:01:15,183] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:01:15,211] {logging_mixin.py:115} INFO - [2023-03-27 19:01:15,211] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:01:15,252] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.686 seconds
+[2023-03-27 19:01:45,817] {processor.py:153} INFO - Started process (PID=1828) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:01:45,818] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:01:45,818] {logging_mixin.py:115} INFO - [2023-03-27 19:01:45,818] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:01:46,256] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:01:46,291] {logging_mixin.py:115} INFO - [2023-03-27 19:01:46,282] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:01:46,351] {logging_mixin.py:115} INFO - [2023-03-27 19:01:46,350] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:01:46,403] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.591 seconds
+[2023-03-27 19:02:16,998] {processor.py:153} INFO - Started process (PID=1852) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:02:16,999] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:02:16,999] {logging_mixin.py:115} INFO - [2023-03-27 19:02:16,999] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:02:17,740] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:02:17,793] {logging_mixin.py:115} INFO - [2023-03-27 19:02:17,792] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:02:17,846] {logging_mixin.py:115} INFO - [2023-03-27 19:02:17,845] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:02:17,946] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.953 seconds
+[2023-03-27 19:02:48,748] {processor.py:153} INFO - Started process (PID=1876) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:02:48,750] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:02:48,750] {logging_mixin.py:115} INFO - [2023-03-27 19:02:48,750] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:02:49,295] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:02:49,365] {logging_mixin.py:115} INFO - [2023-03-27 19:02:49,364] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:02:49,442] {logging_mixin.py:115} INFO - [2023-03-27 19:02:49,442] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:02:49,486] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.743 seconds
+[2023-03-27 19:03:19,673] {processor.py:153} INFO - Started process (PID=1900) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:03:19,673] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:03:19,675] {logging_mixin.py:115} INFO - [2023-03-27 19:03:19,675] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:03:20,136] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:03:20,174] {logging_mixin.py:115} INFO - [2023-03-27 19:03:20,173] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:03:20,199] {logging_mixin.py:115} INFO - [2023-03-27 19:03:20,199] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:03:20,214] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.546 seconds
+[2023-03-27 19:03:50,379] {processor.py:153} INFO - Started process (PID=1924) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:03:50,380] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:03:50,381] {logging_mixin.py:115} INFO - [2023-03-27 19:03:50,381] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:03:50,901] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:03:50,935] {logging_mixin.py:115} INFO - [2023-03-27 19:03:50,934] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:03:50,969] {logging_mixin.py:115} INFO - [2023-03-27 19:03:50,969] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:03:50,989] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.615 seconds
+[2023-03-27 19:04:21,289] {processor.py:153} INFO - Started process (PID=1948) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:04:21,290] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:04:21,290] {logging_mixin.py:115} INFO - [2023-03-27 19:04:21,290] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:04:21,806] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:04:21,837] {logging_mixin.py:115} INFO - [2023-03-27 19:04:21,836] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:04:21,875] {logging_mixin.py:115} INFO - [2023-03-27 19:04:21,874] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:04:21,903] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.619 seconds
+[2023-03-27 19:04:52,056] {processor.py:153} INFO - Started process (PID=1972) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:04:52,057] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:04:52,058] {logging_mixin.py:115} INFO - [2023-03-27 19:04:52,058] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:04:52,569] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:04:52,601] {logging_mixin.py:115} INFO - [2023-03-27 19:04:52,601] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:04:52,635] {logging_mixin.py:115} INFO - [2023-03-27 19:04:52,635] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:04:52,654] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.603 seconds
+[2023-03-27 19:05:22,958] {processor.py:153} INFO - Started process (PID=2026) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:05:22,958] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:05:22,959] {logging_mixin.py:115} INFO - [2023-03-27 19:05:22,959] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:05:23,508] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:05:23,538] {logging_mixin.py:115} INFO - [2023-03-27 19:05:23,537] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:05:23,564] {logging_mixin.py:115} INFO - [2023-03-27 19:05:23,564] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:05:23,593] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.642 seconds
+[2023-03-27 19:05:53,745] {processor.py:153} INFO - Started process (PID=2050) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:05:53,746] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:05:53,747] {logging_mixin.py:115} INFO - [2023-03-27 19:05:53,747] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:05:54,213] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:05:54,246] {logging_mixin.py:115} INFO - [2023-03-27 19:05:54,246] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:05:54,272] {logging_mixin.py:115} INFO - [2023-03-27 19:05:54,272] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:05:54,288] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.546 seconds
+[2023-03-27 19:06:24,491] {processor.py:153} INFO - Started process (PID=2074) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:06:24,493] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:06:24,494] {logging_mixin.py:115} INFO - [2023-03-27 19:06:24,494] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:06:24,977] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:06:25,021] {logging_mixin.py:115} INFO - [2023-03-27 19:06:25,019] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:06:25,053] {logging_mixin.py:115} INFO - [2023-03-27 19:06:25,053] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:06:25,089] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.602 seconds
+[2023-03-27 19:06:55,250] {processor.py:153} INFO - Started process (PID=2098) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:06:55,252] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:06:55,253] {logging_mixin.py:115} INFO - [2023-03-27 19:06:55,253] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:06:55,865] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:06:55,904] {logging_mixin.py:115} INFO - [2023-03-27 19:06:55,903] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:06:55,938] {logging_mixin.py:115} INFO - [2023-03-27 19:06:55,938] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:06:55,959] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.715 seconds
+[2023-03-27 19:07:26,172] {processor.py:153} INFO - Started process (PID=2122) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:07:26,173] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:07:26,175] {logging_mixin.py:115} INFO - [2023-03-27 19:07:26,174] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:07:26,733] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:07:26,790] {logging_mixin.py:115} INFO - [2023-03-27 19:07:26,789] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:07:26,829] {logging_mixin.py:115} INFO - [2023-03-27 19:07:26,829] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:07:26,869] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.702 seconds
+[2023-03-27 19:07:57,315] {processor.py:153} INFO - Started process (PID=2146) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:07:57,316] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:07:57,316] {logging_mixin.py:115} INFO - [2023-03-27 19:07:57,316] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:07:57,807] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:07:57,845] {logging_mixin.py:115} INFO - [2023-03-27 19:07:57,844] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:07:57,876] {logging_mixin.py:115} INFO - [2023-03-27 19:07:57,876] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:07:57,908] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.598 seconds
+[2023-03-27 19:08:28,068] {processor.py:153} INFO - Started process (PID=2170) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:08:28,069] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:08:28,070] {logging_mixin.py:115} INFO - [2023-03-27 19:08:28,070] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:08:28,633] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:08:28,671] {logging_mixin.py:115} INFO - [2023-03-27 19:08:28,671] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:08:28,697] {logging_mixin.py:115} INFO - [2023-03-27 19:08:28,697] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:08:28,732] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.668 seconds
+[2023-03-27 19:08:58,944] {processor.py:153} INFO - Started process (PID=2194) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:08:58,946] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:08:58,947] {logging_mixin.py:115} INFO - [2023-03-27 19:08:58,947] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:08:59,443] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:08:59,482] {logging_mixin.py:115} INFO - [2023-03-27 19:08:59,482] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:08:59,512] {logging_mixin.py:115} INFO - [2023-03-27 19:08:59,512] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:08:59,530] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.591 seconds
+[2023-03-27 19:09:29,717] {processor.py:153} INFO - Started process (PID=2216) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:09:30,308] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:09:30,309] {logging_mixin.py:115} INFO - [2023-03-27 19:09:30,309] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:09:30,859] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:09:30,902] {logging_mixin.py:115} INFO - [2023-03-27 19:09:30,902] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:09:30,932] {logging_mixin.py:115} INFO - [2023-03-27 19:09:30,931] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:09:30,955] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 1.242 seconds
+[2023-03-27 19:10:01,109] {processor.py:153} INFO - Started process (PID=2242) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:10:01,110] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:10:01,111] {logging_mixin.py:115} INFO - [2023-03-27 19:10:01,110] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:10:01,975] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:10:02,012] {logging_mixin.py:115} INFO - [2023-03-27 19:10:02,011] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:10:02,054] {logging_mixin.py:115} INFO - [2023-03-27 19:10:02,054] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:10:02,069] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.964 seconds
+[2023-03-27 19:10:32,393] {processor.py:153} INFO - Started process (PID=2294) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:10:32,394] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:10:32,394] {logging_mixin.py:115} INFO - [2023-03-27 19:10:32,394] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:10:33,197] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:10:33,239] {logging_mixin.py:115} INFO - [2023-03-27 19:10:33,239] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:10:33,273] {logging_mixin.py:115} INFO - [2023-03-27 19:10:33,273] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:10:33,294] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.905 seconds
+[2023-03-27 19:11:03,413] {processor.py:153} INFO - Started process (PID=2320) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:11:03,416] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:11:03,417] {logging_mixin.py:115} INFO - [2023-03-27 19:11:03,417] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:11:03,882] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:11:03,923] {logging_mixin.py:115} INFO - [2023-03-27 19:11:03,919] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:11:04,048] {logging_mixin.py:115} INFO - [2023-03-27 19:11:04,047] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:11:04,073] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.664 seconds
+[2023-03-27 19:11:34,888] {processor.py:153} INFO - Started process (PID=2344) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:11:34,889] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:11:34,889] {logging_mixin.py:115} INFO - [2023-03-27 19:11:34,889] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:11:35,403] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:11:35,489] {logging_mixin.py:115} INFO - [2023-03-27 19:11:35,488] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:11:35,534] {logging_mixin.py:115} INFO - [2023-03-27 19:11:35,534] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:11:35,558] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.673 seconds
+[2023-03-27 19:12:05,724] {processor.py:153} INFO - Started process (PID=2368) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:12:05,725] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:12:05,726] {logging_mixin.py:115} INFO - [2023-03-27 19:12:05,726] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:12:06,330] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:12:06,360] {logging_mixin.py:115} INFO - [2023-03-27 19:12:06,359] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:12:06,388] {logging_mixin.py:115} INFO - [2023-03-27 19:12:06,388] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:12:06,403] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.684 seconds
+[2023-03-27 19:12:36,593] {processor.py:153} INFO - Started process (PID=2392) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:12:36,594] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:12:36,595] {logging_mixin.py:115} INFO - [2023-03-27 19:12:36,595] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:12:37,074] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:12:37,105] {logging_mixin.py:115} INFO - [2023-03-27 19:12:37,105] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:12:37,129] {logging_mixin.py:115} INFO - [2023-03-27 19:12:37,129] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:12:37,146] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.557 seconds
+[2023-03-27 19:13:07,291] {processor.py:153} INFO - Started process (PID=2416) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:13:07,294] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:13:07,294] {logging_mixin.py:115} INFO - [2023-03-27 19:13:07,294] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:13:07,804] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:13:07,842] {logging_mixin.py:115} INFO - [2023-03-27 19:13:07,842] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:13:07,874] {logging_mixin.py:115} INFO - [2023-03-27 19:13:07,874] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:13:07,889] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.602 seconds
+[2023-03-27 19:13:38,166] {processor.py:153} INFO - Started process (PID=2438) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:13:38,166] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:13:38,167] {logging_mixin.py:115} INFO - [2023-03-27 19:13:38,167] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:13:38,686] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:13:38,716] {logging_mixin.py:115} INFO - [2023-03-27 19:13:38,716] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:13:38,741] {logging_mixin.py:115} INFO - [2023-03-27 19:13:38,741] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:13:38,757] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.595 seconds
+[2023-03-27 19:14:09,035] {processor.py:153} INFO - Started process (PID=2462) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:14:10,295] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:14:10,295] {logging_mixin.py:115} INFO - [2023-03-27 19:14:10,295] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:14:10,851] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:14:10,916] {logging_mixin.py:115} INFO - [2023-03-27 19:14:10,916] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:14:10,972] {logging_mixin.py:115} INFO - [2023-03-27 19:14:10,971] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:14:10,992] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 1.962 seconds
+[2023-03-27 19:14:41,288] {processor.py:153} INFO - Started process (PID=2488) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:14:41,289] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:14:41,289] {logging_mixin.py:115} INFO - [2023-03-27 19:14:41,289] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:14:41,792] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:14:41,819] {logging_mixin.py:115} INFO - [2023-03-27 19:14:41,818] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:14:41,844] {logging_mixin.py:115} INFO - [2023-03-27 19:14:41,844] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:14:41,864] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.579 seconds
+[2023-03-27 19:15:12,108] {processor.py:153} INFO - Started process (PID=2525) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:15:12,113] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:15:12,114] {logging_mixin.py:115} INFO - [2023-03-27 19:15:12,114] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:15:12,664] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:15:12,701] {logging_mixin.py:115} INFO - [2023-03-27 19:15:12,701] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:15:12,734] {logging_mixin.py:115} INFO - [2023-03-27 19:15:12,734] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:15:12,757] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.659 seconds
+[2023-03-27 19:15:42,989] {processor.py:153} INFO - Started process (PID=2564) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:15:42,989] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:15:42,990] {logging_mixin.py:115} INFO - [2023-03-27 19:15:42,989] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:15:43,482] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:15:43,525] {logging_mixin.py:115} INFO - [2023-03-27 19:15:43,523] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:15:43,551] {logging_mixin.py:115} INFO - [2023-03-27 19:15:43,551] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:15:43,564] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.581 seconds
+[2023-03-27 19:16:13,708] {processor.py:153} INFO - Started process (PID=2588) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:16:13,709] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:16:13,710] {logging_mixin.py:115} INFO - [2023-03-27 19:16:13,710] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:16:14,312] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:16:14,344] {logging_mixin.py:115} INFO - [2023-03-27 19:16:14,343] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:16:14,377] {logging_mixin.py:115} INFO - [2023-03-27 19:16:14,377] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:16:14,397] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.693 seconds
+[2023-03-27 19:16:44,725] {processor.py:153} INFO - Started process (PID=2612) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:16:44,725] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:16:44,726] {logging_mixin.py:115} INFO - [2023-03-27 19:16:44,726] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:16:45,216] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:16:45,243] {logging_mixin.py:115} INFO - [2023-03-27 19:16:45,242] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:16:45,273] {logging_mixin.py:115} INFO - [2023-03-27 19:16:45,273] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:16:45,292] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.572 seconds
+[2023-03-27 19:17:15,464] {processor.py:153} INFO - Started process (PID=2636) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:17:15,466] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:17:15,467] {logging_mixin.py:115} INFO - [2023-03-27 19:17:15,466] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:17:15,982] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:17:16,010] {logging_mixin.py:115} INFO - [2023-03-27 19:17:16,010] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:17:16,040] {logging_mixin.py:115} INFO - [2023-03-27 19:17:16,039] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:17:16,054] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.596 seconds
+[2023-03-27 19:17:46,342] {processor.py:153} INFO - Started process (PID=2662) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:17:46,343] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:17:46,343] {logging_mixin.py:115} INFO - [2023-03-27 19:17:46,343] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:17:46,832] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:17:46,860] {logging_mixin.py:115} INFO - [2023-03-27 19:17:46,859] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:17:46,884] {logging_mixin.py:115} INFO - [2023-03-27 19:17:46,884] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:17:46,899] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.561 seconds
+[2023-03-27 19:18:17,080] {processor.py:153} INFO - Started process (PID=2684) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:18:17,081] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:18:17,081] {logging_mixin.py:115} INFO - [2023-03-27 19:18:17,081] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:18:17,586] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:18:17,638] {logging_mixin.py:115} INFO - [2023-03-27 19:18:17,637] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:18:17,665] {logging_mixin.py:115} INFO - [2023-03-27 19:18:17,665] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:18:17,684] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.609 seconds
+[2023-03-27 19:18:47,843] {processor.py:153} INFO - Started process (PID=2710) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:18:47,843] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:18:47,844] {logging_mixin.py:115} INFO - [2023-03-27 19:18:47,844] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:18:48,311] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:18:48,335] {logging_mixin.py:115} INFO - [2023-03-27 19:18:48,334] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:18:48,365] {logging_mixin.py:115} INFO - [2023-03-27 19:18:48,365] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:18:48,389] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.549 seconds
+[2023-03-27 19:19:18,619] {processor.py:153} INFO - Started process (PID=2734) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:19:18,620] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:19:18,621] {logging_mixin.py:115} INFO - [2023-03-27 19:19:18,621] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:19:19,149] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:19:19,184] {logging_mixin.py:115} INFO - [2023-03-27 19:19:19,184] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:19:19,215] {logging_mixin.py:115} INFO - [2023-03-27 19:19:19,215] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:19:19,231] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.617 seconds
+[2023-03-27 19:19:49,398] {processor.py:153} INFO - Started process (PID=2756) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:19:49,399] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:19:49,408] {logging_mixin.py:115} INFO - [2023-03-27 19:19:49,400] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:19:49,882] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:19:49,904] {logging_mixin.py:115} INFO - [2023-03-27 19:19:49,904] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:19:49,932] {logging_mixin.py:115} INFO - [2023-03-27 19:19:49,931] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:19:49,947] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.555 seconds
+[2023-03-27 19:20:20,198] {processor.py:153} INFO - Started process (PID=2810) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:20:20,201] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:20:20,202] {logging_mixin.py:115} INFO - [2023-03-27 19:20:20,202] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:20:20,836] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:20:20,856] {logging_mixin.py:115} INFO - [2023-03-27 19:20:20,856] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:20:20,880] {logging_mixin.py:115} INFO - [2023-03-27 19:20:20,880] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:20:20,899] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.706 seconds
+[2023-03-27 19:20:51,075] {processor.py:153} INFO - Started process (PID=2834) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:20:51,077] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:20:51,079] {logging_mixin.py:115} INFO - [2023-03-27 19:20:51,078] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:20:51,881] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:20:51,912] {logging_mixin.py:115} INFO - [2023-03-27 19:20:51,911] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:20:51,952] {logging_mixin.py:115} INFO - [2023-03-27 19:20:51,952] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:20:51,972] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.903 seconds
+[2023-03-27 19:21:22,793] {processor.py:153} INFO - Started process (PID=2860) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:21:22,795] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:21:22,796] {logging_mixin.py:115} INFO - [2023-03-27 19:21:22,796] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:21:23,425] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:21:23,449] {logging_mixin.py:115} INFO - [2023-03-27 19:21:23,448] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:21:23,487] {logging_mixin.py:115} INFO - [2023-03-27 19:21:23,486] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:21:23,501] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.722 seconds
+[2023-03-27 19:21:53,691] {processor.py:153} INFO - Started process (PID=2884) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:21:53,691] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:21:53,692] {logging_mixin.py:115} INFO - [2023-03-27 19:21:53,692] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:21:54,196] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:21:54,215] {logging_mixin.py:115} INFO - [2023-03-27 19:21:54,215] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:21:54,245] {logging_mixin.py:115} INFO - [2023-03-27 19:21:54,245] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:21:54,266] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.581 seconds
+[2023-03-27 19:22:24,828] {processor.py:153} INFO - Started process (PID=2908) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:22:24,829] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:22:24,830] {logging_mixin.py:115} INFO - [2023-03-27 19:22:24,830] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:22:25,298] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:22:25,331] {logging_mixin.py:115} INFO - [2023-03-27 19:22:25,330] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:22:25,371] {logging_mixin.py:115} INFO - [2023-03-27 19:22:25,371] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:22:25,389] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.566 seconds
+[2023-03-27 19:22:55,592] {processor.py:153} INFO - Started process (PID=2932) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:22:55,593] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:22:55,594] {logging_mixin.py:115} INFO - [2023-03-27 19:22:55,594] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:22:56,078] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:22:56,113] {logging_mixin.py:115} INFO - [2023-03-27 19:22:56,112] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:22:56,142] {logging_mixin.py:115} INFO - [2023-03-27 19:22:56,142] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:22:56,159] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.571 seconds
+[2023-03-27 19:23:26,359] {processor.py:153} INFO - Started process (PID=2956) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:23:26,360] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:23:26,360] {logging_mixin.py:115} INFO - [2023-03-27 19:23:26,360] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:23:26,885] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:23:26,922] {logging_mixin.py:115} INFO - [2023-03-27 19:23:26,921] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:23:26,959] {logging_mixin.py:115} INFO - [2023-03-27 19:23:26,959] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:23:26,974] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.620 seconds
+[2023-03-27 19:23:57,149] {processor.py:153} INFO - Started process (PID=2980) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:23:57,149] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:23:57,150] {logging_mixin.py:115} INFO - [2023-03-27 19:23:57,150] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:23:57,632] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:23:57,664] {logging_mixin.py:115} INFO - [2023-03-27 19:23:57,664] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:23:57,688] {logging_mixin.py:115} INFO - [2023-03-27 19:23:57,687] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:23:57,702] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.558 seconds
+[2023-03-27 19:24:27,978] {processor.py:153} INFO - Started process (PID=3004) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:24:27,979] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:24:27,980] {logging_mixin.py:115} INFO - [2023-03-27 19:24:27,980] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:24:28,468] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:24:28,509] {logging_mixin.py:115} INFO - [2023-03-27 19:24:28,509] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:24:28,532] {logging_mixin.py:115} INFO - [2023-03-27 19:24:28,531] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:24:28,545] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.571 seconds
+[2023-03-27 19:24:58,678] {processor.py:153} INFO - Started process (PID=3028) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:24:58,679] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:24:58,679] {logging_mixin.py:115} INFO - [2023-03-27 19:24:58,679] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:24:59,245] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:24:59,274] {logging_mixin.py:115} INFO - [2023-03-27 19:24:59,274] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:24:59,301] {logging_mixin.py:115} INFO - [2023-03-27 19:24:59,301] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:24:59,320] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.646 seconds
+[2023-03-27 19:25:29,513] {processor.py:153} INFO - Started process (PID=3082) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:25:29,515] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:25:29,516] {logging_mixin.py:115} INFO - [2023-03-27 19:25:29,516] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:25:29,973] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:25:29,992] {logging_mixin.py:115} INFO - [2023-03-27 19:25:29,992] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:25:30,015] {logging_mixin.py:115} INFO - [2023-03-27 19:25:30,015] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:25:30,037] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.527 seconds
+[2023-03-27 19:26:00,539] {processor.py:153} INFO - Started process (PID=3106) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:26:00,540] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:26:00,541] {logging_mixin.py:115} INFO - [2023-03-27 19:26:00,541] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:26:01,384] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:26:01,415] {logging_mixin.py:115} INFO - [2023-03-27 19:26:01,414] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:26:01,453] {logging_mixin.py:115} INFO - [2023-03-27 19:26:01,453] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:26:01,473] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.939 seconds
+[2023-03-27 19:26:31,612] {processor.py:153} INFO - Started process (PID=3130) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:26:31,614] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:26:31,615] {logging_mixin.py:115} INFO - [2023-03-27 19:26:31,615] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:26:32,122] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:26:32,147] {logging_mixin.py:115} INFO - [2023-03-27 19:26:32,146] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:26:32,174] {logging_mixin.py:115} INFO - [2023-03-27 19:26:32,174] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:26:32,192] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.586 seconds
+[2023-03-27 19:27:02,897] {processor.py:153} INFO - Started process (PID=3154) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:27:02,897] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:27:02,898] {logging_mixin.py:115} INFO - [2023-03-27 19:27:02,898] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:27:03,404] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:27:03,468] {logging_mixin.py:115} INFO - [2023-03-27 19:27:03,465] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:27:03,541] {logging_mixin.py:115} INFO - [2023-03-27 19:27:03,541] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:27:03,561] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.670 seconds
+[2023-03-27 19:27:33,715] {processor.py:153} INFO - Started process (PID=3178) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:27:33,716] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:27:33,717] {logging_mixin.py:115} INFO - [2023-03-27 19:27:33,717] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:27:34,344] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:27:34,385] {logging_mixin.py:115} INFO - [2023-03-27 19:27:34,384] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:27:34,414] {logging_mixin.py:115} INFO - [2023-03-27 19:27:34,414] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:27:34,429] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.719 seconds
+[2023-03-27 19:28:04,672] {processor.py:153} INFO - Started process (PID=3202) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:28:04,672] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:28:04,673] {logging_mixin.py:115} INFO - [2023-03-27 19:28:04,673] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:28:05,245] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:28:05,274] {logging_mixin.py:115} INFO - [2023-03-27 19:28:05,274] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:28:05,303] {logging_mixin.py:115} INFO - [2023-03-27 19:28:05,303] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:28:05,323] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.656 seconds
+[2023-03-27 19:28:35,510] {processor.py:153} INFO - Started process (PID=3226) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:28:35,511] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:28:35,512] {logging_mixin.py:115} INFO - [2023-03-27 19:28:35,512] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:28:36,020] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:28:36,061] {logging_mixin.py:115} INFO - [2023-03-27 19:28:36,060] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:28:36,097] {logging_mixin.py:115} INFO - [2023-03-27 19:28:36,097] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:28:36,124] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.618 seconds
+[2023-03-27 19:29:06,444] {processor.py:153} INFO - Started process (PID=3250) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:29:06,445] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:29:06,446] {logging_mixin.py:115} INFO - [2023-03-27 19:29:06,445] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:29:07,010] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:29:07,052] {logging_mixin.py:115} INFO - [2023-03-27 19:29:07,051] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:29:07,092] {logging_mixin.py:115} INFO - [2023-03-27 19:29:07,092] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:29:07,109] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.670 seconds
+[2023-03-27 19:29:37,265] {processor.py:153} INFO - Started process (PID=3274) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:29:37,760] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:29:37,763] {logging_mixin.py:115} INFO - [2023-03-27 19:29:37,763] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:29:38,270] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:29:38,312] {logging_mixin.py:115} INFO - [2023-03-27 19:29:38,311] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:29:38,341] {logging_mixin.py:115} INFO - [2023-03-27 19:29:38,341] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:29:38,384] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 1.124 seconds
+[2023-03-27 19:30:09,048] {processor.py:153} INFO - Started process (PID=3313) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:30:09,049] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:30:09,050] {logging_mixin.py:115} INFO - [2023-03-27 19:30:09,050] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:30:09,806] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:30:09,832] {logging_mixin.py:115} INFO - [2023-03-27 19:30:09,832] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:30:09,857] {logging_mixin.py:115} INFO - [2023-03-27 19:30:09,857] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:30:09,909] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.866 seconds
+[2023-03-27 19:30:40,228] {processor.py:153} INFO - Started process (PID=3352) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:30:40,230] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:30:40,230] {logging_mixin.py:115} INFO - [2023-03-27 19:30:40,230] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:30:40,963] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:30:40,987] {logging_mixin.py:115} INFO - [2023-03-27 19:30:40,987] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:30:41,015] {logging_mixin.py:115} INFO - [2023-03-27 19:30:41,015] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:30:41,032] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.808 seconds
+[2023-03-27 19:31:11,368] {processor.py:153} INFO - Started process (PID=3380) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:31:11,370] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:31:11,370] {logging_mixin.py:115} INFO - [2023-03-27 19:31:11,370] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:31:11,926] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:31:11,963] {logging_mixin.py:115} INFO - [2023-03-27 19:31:11,962] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:31:12,031] {logging_mixin.py:115} INFO - [2023-03-27 19:31:12,031] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:31:12,049] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.685 seconds
+[2023-03-27 19:31:42,451] {processor.py:153} INFO - Started process (PID=3404) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:31:42,452] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:31:42,452] {logging_mixin.py:115} INFO - [2023-03-27 19:31:42,452] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:31:42,973] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:31:43,001] {logging_mixin.py:115} INFO - [2023-03-27 19:31:43,000] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:31:43,038] {logging_mixin.py:115} INFO - [2023-03-27 19:31:43,038] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:31:43,075] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.627 seconds
+[2023-03-27 19:32:13,487] {processor.py:153} INFO - Started process (PID=3428) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:32:13,489] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:32:13,489] {logging_mixin.py:115} INFO - [2023-03-27 19:32:13,489] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:32:14,039] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:32:14,094] {logging_mixin.py:115} INFO - [2023-03-27 19:32:14,093] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:32:14,143] {logging_mixin.py:115} INFO - [2023-03-27 19:32:14,142] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:32:14,165] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.688 seconds
+[2023-03-27 19:32:44,304] {processor.py:153} INFO - Started process (PID=3448) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:32:44,304] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:32:44,305] {logging_mixin.py:115} INFO - [2023-03-27 19:32:44,305] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:32:44,809] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:32:44,844] {logging_mixin.py:115} INFO - [2023-03-27 19:32:44,843] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:32:44,875] {logging_mixin.py:115} INFO - [2023-03-27 19:32:44,875] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:32:44,929] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.628 seconds
+[2023-03-27 19:33:15,152] {processor.py:153} INFO - Started process (PID=3472) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:33:15,153] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:33:15,154] {logging_mixin.py:115} INFO - [2023-03-27 19:33:15,154] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:33:15,699] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:33:15,720] {logging_mixin.py:115} INFO - [2023-03-27 19:33:15,720] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:33:15,749] {logging_mixin.py:115} INFO - [2023-03-27 19:33:15,748] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:33:15,776] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.631 seconds
+[2023-03-27 19:33:45,981] {processor.py:153} INFO - Started process (PID=3496) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:33:45,982] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:33:45,983] {logging_mixin.py:115} INFO - [2023-03-27 19:33:45,982] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:33:46,527] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:33:46,551] {logging_mixin.py:115} INFO - [2023-03-27 19:33:46,551] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:33:46,581] {logging_mixin.py:115} INFO - [2023-03-27 19:33:46,581] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:33:46,598] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.621 seconds
+[2023-03-27 19:34:16,812] {processor.py:153} INFO - Started process (PID=3520) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:34:16,814] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:34:16,815] {logging_mixin.py:115} INFO - [2023-03-27 19:34:16,815] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:34:17,288] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:34:17,311] {logging_mixin.py:115} INFO - [2023-03-27 19:34:17,311] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:34:17,348] {logging_mixin.py:115} INFO - [2023-03-27 19:34:17,348] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:34:17,362] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.556 seconds
+[2023-03-27 19:34:47,561] {processor.py:153} INFO - Started process (PID=3544) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:34:47,561] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:34:47,562] {logging_mixin.py:115} INFO - [2023-03-27 19:34:47,562] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:34:48,072] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:34:48,096] {logging_mixin.py:115} INFO - [2023-03-27 19:34:48,095] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:34:48,137] {logging_mixin.py:115} INFO - [2023-03-27 19:34:48,136] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:34:48,153] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.596 seconds
+[2023-03-27 19:35:18,305] {processor.py:153} INFO - Started process (PID=3598) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:35:18,307] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:35:18,308] {logging_mixin.py:115} INFO - [2023-03-27 19:35:18,308] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:35:18,847] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:35:18,874] {logging_mixin.py:115} INFO - [2023-03-27 19:35:18,873] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:35:18,906] {logging_mixin.py:115} INFO - [2023-03-27 19:35:18,906] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:35:18,926] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.626 seconds
+[2023-03-27 19:35:49,085] {processor.py:153} INFO - Started process (PID=3622) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:35:49,086] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:35:49,087] {logging_mixin.py:115} INFO - [2023-03-27 19:35:49,087] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:35:49,564] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:35:49,588] {logging_mixin.py:115} INFO - [2023-03-27 19:35:49,588] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:35:49,624] {logging_mixin.py:115} INFO - [2023-03-27 19:35:49,624] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:35:49,640] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.559 seconds
+[2023-03-27 19:36:19,755] {processor.py:153} INFO - Started process (PID=3646) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:36:19,756] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:36:19,757] {logging_mixin.py:115} INFO - [2023-03-27 19:36:19,757] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:36:20,247] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:36:20,286] {logging_mixin.py:115} INFO - [2023-03-27 19:36:20,286] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:36:20,332] {logging_mixin.py:115} INFO - [2023-03-27 19:36:20,332] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:36:20,378] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.628 seconds
+[2023-03-27 19:36:50,514] {processor.py:153} INFO - Started process (PID=3670) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:36:50,514] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:36:50,515] {logging_mixin.py:115} INFO - [2023-03-27 19:36:50,515] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:36:51,002] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:36:51,024] {logging_mixin.py:115} INFO - [2023-03-27 19:36:51,024] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:36:51,044] {logging_mixin.py:115} INFO - [2023-03-27 19:36:51,044] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:36:51,061] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.551 seconds
+[2023-03-27 19:37:21,205] {processor.py:153} INFO - Started process (PID=3694) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:37:21,206] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:37:21,207] {logging_mixin.py:115} INFO - [2023-03-27 19:37:21,207] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:37:21,704] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:37:21,797] {logging_mixin.py:115} INFO - [2023-03-27 19:37:21,796] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:37:21,871] {logging_mixin.py:115} INFO - [2023-03-27 19:37:21,871] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:37:21,889] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.699 seconds
+[2023-03-27 19:37:52,040] {processor.py:153} INFO - Started process (PID=3718) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:37:52,041] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:37:52,041] {logging_mixin.py:115} INFO - [2023-03-27 19:37:52,041] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:37:52,486] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:37:52,520] {logging_mixin.py:115} INFO - [2023-03-27 19:37:52,519] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:37:52,560] {logging_mixin.py:115} INFO - [2023-03-27 19:37:52,560] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:37:52,585] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.548 seconds
+[2023-03-27 19:38:22,875] {processor.py:153} INFO - Started process (PID=3742) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:38:22,876] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:38:22,876] {logging_mixin.py:115} INFO - [2023-03-27 19:38:22,876] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:38:23,337] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:38:23,363] {logging_mixin.py:115} INFO - [2023-03-27 19:38:23,363] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:38:23,389] {logging_mixin.py:115} INFO - [2023-03-27 19:38:23,389] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:38:23,406] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.535 seconds
+[2023-03-27 19:38:53,535] {processor.py:153} INFO - Started process (PID=3766) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:38:53,535] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:38:53,536] {logging_mixin.py:115} INFO - [2023-03-27 19:38:53,535] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:38:54,005] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:38:54,030] {logging_mixin.py:115} INFO - [2023-03-27 19:38:54,029] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:38:54,067] {logging_mixin.py:115} INFO - [2023-03-27 19:38:54,067] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:38:54,087] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.556 seconds
+[2023-03-27 19:39:24,464] {processor.py:153} INFO - Started process (PID=3790) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:39:24,467] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:39:24,470] {logging_mixin.py:115} INFO - [2023-03-27 19:39:24,469] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:39:24,953] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:39:24,981] {logging_mixin.py:115} INFO - [2023-03-27 19:39:24,981] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:39:25,026] {logging_mixin.py:115} INFO - [2023-03-27 19:39:25,026] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:39:25,045] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.588 seconds
+[2023-03-27 19:39:55,207] {processor.py:153} INFO - Started process (PID=3814) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:39:55,208] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:39:55,209] {logging_mixin.py:115} INFO - [2023-03-27 19:39:55,209] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:39:55,714] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:39:55,738] {logging_mixin.py:115} INFO - [2023-03-27 19:39:55,737] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:39:55,769] {logging_mixin.py:115} INFO - [2023-03-27 19:39:55,769] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:39:55,786] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.584 seconds
+[2023-03-27 19:40:26,039] {processor.py:153} INFO - Started process (PID=3868) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:40:26,041] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:40:26,041] {logging_mixin.py:115} INFO - [2023-03-27 19:40:26,041] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:40:26,633] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:40:26,653] {logging_mixin.py:115} INFO - [2023-03-27 19:40:26,652] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:40:26,675] {logging_mixin.py:115} INFO - [2023-03-27 19:40:26,675] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:40:26,689] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.655 seconds
+[2023-03-27 19:40:56,842] {processor.py:153} INFO - Started process (PID=3892) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:40:56,843] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:40:56,843] {logging_mixin.py:115} INFO - [2023-03-27 19:40:56,843] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:40:57,346] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:40:57,371] {logging_mixin.py:115} INFO - [2023-03-27 19:40:57,370] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:40:57,404] {logging_mixin.py:115} INFO - [2023-03-27 19:40:57,404] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:40:57,426] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.589 seconds
+[2023-03-27 19:41:27,632] {processor.py:153} INFO - Started process (PID=3916) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:41:27,634] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:41:27,634] {logging_mixin.py:115} INFO - [2023-03-27 19:41:27,634] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:41:28,148] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:41:28,168] {logging_mixin.py:115} INFO - [2023-03-27 19:41:28,168] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:41:28,205] {logging_mixin.py:115} INFO - [2023-03-27 19:41:28,205] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:41:28,224] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.598 seconds
+[2023-03-27 19:41:58,382] {processor.py:153} INFO - Started process (PID=3940) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:41:58,382] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:41:58,383] {logging_mixin.py:115} INFO - [2023-03-27 19:41:58,383] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:41:58,956] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:41:58,982] {logging_mixin.py:115} INFO - [2023-03-27 19:41:58,981] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:41:59,011] {logging_mixin.py:115} INFO - [2023-03-27 19:41:59,011] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:41:59,028] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.656 seconds
+[2023-03-27 19:42:29,305] {processor.py:153} INFO - Started process (PID=3964) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:42:29,307] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:42:29,308] {logging_mixin.py:115} INFO - [2023-03-27 19:42:29,308] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:42:29,940] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:42:29,968] {logging_mixin.py:115} INFO - [2023-03-27 19:42:29,968] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:42:29,996] {logging_mixin.py:115} INFO - [2023-03-27 19:42:29,995] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:42:30,016] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.718 seconds
+[2023-03-27 19:43:00,470] {processor.py:153} INFO - Started process (PID=3988) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:43:00,470] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:43:00,471] {logging_mixin.py:115} INFO - [2023-03-27 19:43:00,471] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:43:00,973] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:43:01,001] {logging_mixin.py:115} INFO - [2023-03-27 19:43:01,000] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:43:01,029] {logging_mixin.py:115} INFO - [2023-03-27 19:43:01,028] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:43:01,058] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.593 seconds
+[2023-03-27 19:43:31,235] {processor.py:153} INFO - Started process (PID=4012) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:43:31,237] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:43:31,238] {logging_mixin.py:115} INFO - [2023-03-27 19:43:31,238] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:43:31,829] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:43:31,856] {logging_mixin.py:115} INFO - [2023-03-27 19:43:31,856] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:43:31,888] {logging_mixin.py:115} INFO - [2023-03-27 19:43:31,888] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:43:31,906] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.680 seconds
+[2023-03-27 19:44:02,194] {processor.py:153} INFO - Started process (PID=4036) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:44:02,195] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:44:02,195] {logging_mixin.py:115} INFO - [2023-03-27 19:44:02,195] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:44:02,759] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:44:02,790] {logging_mixin.py:115} INFO - [2023-03-27 19:44:02,789] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:44:02,821] {logging_mixin.py:115} INFO - [2023-03-27 19:44:02,821] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:44:02,835] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.649 seconds
+[2023-03-27 19:44:33,043] {processor.py:153} INFO - Started process (PID=4060) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:44:33,045] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:44:33,046] {logging_mixin.py:115} INFO - [2023-03-27 19:44:33,045] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:44:33,640] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:44:33,703] {logging_mixin.py:115} INFO - [2023-03-27 19:44:33,702] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:44:33,739] {logging_mixin.py:115} INFO - [2023-03-27 19:44:33,738] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:44:33,761] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.723 seconds
+[2023-03-27 19:45:03,941] {processor.py:153} INFO - Started process (PID=4087) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:45:03,942] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:45:03,942] {logging_mixin.py:115} INFO - [2023-03-27 19:45:03,942] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:45:04,440] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:45:04,468] {logging_mixin.py:115} INFO - [2023-03-27 19:45:04,467] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:45:04,524] {logging_mixin.py:115} INFO - [2023-03-27 19:45:04,524] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:45:04,579] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.642 seconds
+[2023-03-27 19:45:34,703] {processor.py:153} INFO - Started process (PID=4138) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:45:34,705] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:45:34,705] {logging_mixin.py:115} INFO - [2023-03-27 19:45:34,705] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:45:35,244] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:45:35,279] {logging_mixin.py:115} INFO - [2023-03-27 19:45:35,278] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:45:35,323] {logging_mixin.py:115} INFO - [2023-03-27 19:45:35,323] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:45:35,343] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.647 seconds
+[2023-03-27 19:46:05,553] {processor.py:153} INFO - Started process (PID=4162) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:46:05,553] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:46:05,554] {logging_mixin.py:115} INFO - [2023-03-27 19:46:05,554] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:46:06,072] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:46:06,093] {logging_mixin.py:115} INFO - [2023-03-27 19:46:06,092] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:46:06,119] {logging_mixin.py:115} INFO - [2023-03-27 19:46:06,119] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:46:06,136] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.586 seconds
+[2023-03-27 19:46:36,902] {processor.py:153} INFO - Started process (PID=4186) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:46:36,905] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:46:36,906] {logging_mixin.py:115} INFO - [2023-03-27 19:46:36,906] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:46:37,407] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:46:37,428] {logging_mixin.py:115} INFO - [2023-03-27 19:46:37,428] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:46:37,457] {logging_mixin.py:115} INFO - [2023-03-27 19:46:37,457] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:46:37,470] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.573 seconds
+[2023-03-27 19:47:07,630] {processor.py:153} INFO - Started process (PID=4210) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:47:07,631] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:47:07,631] {logging_mixin.py:115} INFO - [2023-03-27 19:47:07,631] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:47:08,189] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:47:08,218] {logging_mixin.py:115} INFO - [2023-03-27 19:47:08,217] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-03-27 19:47:08,244] {logging_mixin.py:115} INFO - [2023-03-27 19:47:08,244] {dag.py:2972} INFO - Setting next_dagrun for carga_newponto to 2023-03-26T22:00:00+00:00, run_after=2023-03-27T22:00:00+00:00
+[2023-03-27 19:47:08,258] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_newponto.py took 0.633 seconds
+[2023-03-27 19:47:38,458] {processor.py:153} INFO - Started process (PID=4234) to work on /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:47:38,458] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_newponto.py for tasks to queue
+[2023-03-27 19:47:38,459] {logging_mixin.py:115} INFO - [2023-03-27 19:47:38,458] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/etl_newponto.py
+[2023-03-27 19:47:38,934] {processor.py:651} INFO - DAG(s) dict_keys(['carga_newponto']) retrieved from /opt/airflow/dags/etl_newponto.py
+                                                                                                                                                                                                                                                                                                                                                                                                                                                       
