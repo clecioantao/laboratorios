@@ -5,19 +5,20 @@ resource "google_cloud_run_service" "default" {
   template {
     spec {
       containers {
-        image = "gcr.io/google-samples/hello-app:1.0"
+        #image = "gcr.io/google-samples/hello-app:1.0"
+        image = "gcr.io/google-samples/hello-app:2.0"
       }
     }
   }
 
   traffic {
     percent         = 50
-    revision_name = "cloudrun-srv-tlhn4"
+    revision_name = "cloudrun-srv-dp5pq"
   }
 
   traffic {
     percent         = 50
-    revision_name = "cloudrun-srv-hzqwk"
+    revision_name = "cloudrun-srv-5zhm4"
   }
 
 }

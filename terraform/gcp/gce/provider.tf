@@ -12,7 +12,7 @@ provider "google" {
   project     = "terraform-380221"
   region      = "us-central1"
   zone = "us-central1-a"
-  credentials = "../../secrets.json"
+  credentials = "../../.env/temaki.json"
 }
 
 resource "random_integer" "sufix" {

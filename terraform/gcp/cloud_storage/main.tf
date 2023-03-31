@@ -9,6 +9,7 @@ resource "google_storage_bucket" "bucket1" {
   location = "us-central1"
   storage_class = "STANDARD"
   uniform_bucket_level_access = false
+  
   lifecycle_rule {
     condition {
       age = 3
@@ -28,7 +29,7 @@ resource "google_storage_bucket" "bucket1" {
 
 resource "google_storage_bucket_object" "arq" {
   name = "arq_${random_integer.sufix.result}"
-  source = "../../selos2.webp"
+  source = "images/selos2.webp"
   bucket = google_storage_bucket.bucket1.name
 }
 

@@ -28,6 +28,14 @@ resource "google_compute_firewall" "allow-icmp" {
   allow {
     protocol = "icmp"
   }
+
+  allow {
+    protocol = "tcp"
+    ports    = ["80", "8080", "1000-2000"]
+  }
+
+  source_tags = ["web"]
+  
   source_ranges = ["177.81.83.164"]
   priority = 500
 }

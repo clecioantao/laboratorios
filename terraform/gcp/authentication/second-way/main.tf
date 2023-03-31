@@ -11,11 +11,10 @@ provider "google" {
   project     = "terraform-380221"
   region      = "us-central1"
   zone = "us-central1-a"
-  credentials = "../../secrets.json"
+  credentials = "../../.env/temaki.json"
 }
 
 resource "google_storage_bucket" "bucket_user_secret" {
-  name = "bucket_user_secret"
+  name = "bucket_from_svcacc"
   location = "us-central1"
-
 }
