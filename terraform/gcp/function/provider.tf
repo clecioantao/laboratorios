@@ -2,7 +2,7 @@ terraform {
   required_version = ">=1.0.0"
   required_providers {
     google = {
-      source = "hashicorp/google"
+      source  = "hashicorp/google"
       version = "4.56.0"
     }
   }
@@ -11,7 +11,7 @@ terraform {
 provider "google" {
   project     = "terraform-380221"
   region      = "us-central1"
-  zone = "us-central1-a"
+  zone        = "us-central1-a"
   credentials = "../../.env/temaki.json"
 }
 
