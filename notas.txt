@@ -1,0 +1,94 @@
+21/04/2021
+Grafico Desk Manager (Streaming)
+Para inserção de datas eleasticsearch, criar mapping usando keyword ao invés de string, caso contrário os dados não aparecerão nas visualizações.
+PUT teste5
+{
+	"mappings" : {
+		"properties" : {
+			"CodChamado" : {"type": "keyword"}, 
+			"DataCriacao" : {"type": "date", "format": "dd-MM-yyyy"}, 
+			"DataFinalizacao" : {"type": "date", "format": "dd-MM-yyyy"},
+			"NomeOperador" : { "type" : "keyword" },
+			"NomeStatus" : { "type" : "keyword" },
+			"Sla1Expirado" : { "type" : "keyword" },
+			"Sla2Expirado" : { "type" : "keyword" },
+			"Fantasia" : { "type" : "keyword" },
+			"NomeSubCategoria" : { "type" : "keyword" }
+		}
+	}
+}
+
+Buscando ID dos Indices:
+## BUSCA INDICE
+GET .kibana/_search
+{
+  "_source": ["index-pattern.title"],
+  "query": {
+    "term": {
+      "type": "index-pattern"
+    }
+  }
+}
+
+
+
+24/04/2021
+Permitir aceso GMAIL por aplicativos
+Google less secure
+
+25/04/2021
+Container Cloudera
+docker run -m 4G --memory-reservation 2G --memory-swap 8G --hostname=quickstart.cloudera --privileged=true -d -v $(pwd):/cloudera --publish-all=true -p8888 -p8088 cloudera/quickstart /usr/bin/docker-quickstart
+Curso Montando o Data Lake
+
+Comandos terminal
+hdfs dfs (tras todos comandos)
+
+PROMETHEUS
+
+Criando app asp.net core mvc
+
+https://www.youtube.com/watch?v=EAQOr8FAs44
+
+Criando app
+dotnet new mvc
+
+Executando app
+dotnet run
+
+Instalar pacotes nugget
+
+Primeiro pacote:
+https://www.nuget.org/packages/prometheus-net
+
+
+Segundo pacote:
+https://www.nuget.org/packages/prometheus-net.AspNetCore/
+
+
+Configurar startup.cs
+
+
+​
+72
+​
+73
+​
+74
+​
+75
+
+
+
+
+
+dotnet run (verificar /metrics)
+
+Métricas customizadas:
+
+Configurar HomeController.cs
+
+
+
+
+
